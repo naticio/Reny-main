@@ -1,0 +1,65 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd424ab9e9cf542ed78640ad13cbbca6f5a8"
+    },
+    {
+      "guid" : "b964ff7de8f6e36f6d111da97b03814541c0e3396b8b2e62e6363613f44b3b9c"
+    }
+  ],
+  "containerPath" : "/Users/Nat-Serrano/Desktop/Reny/Reny.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/Nat-Serrano/Desktop/Reny/DerivedData/Reny/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/Nat-Serrano/Desktop/Reny/DerivedData/Reny/Index/Build/Products",
+      "derivedDataPath" : "/Users/Nat-Serrano/Desktop/Reny/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/Nat-Serrano/Desktop/Reny/DerivedData/Reny/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/Nat-Serrano/Desktop/Reny/DerivedData/Reny/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/Nat-Serrano/Desktop/Reny/DerivedData/Reny/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/Nat-Serrano/Desktop/Reny/DerivedData/Reny/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

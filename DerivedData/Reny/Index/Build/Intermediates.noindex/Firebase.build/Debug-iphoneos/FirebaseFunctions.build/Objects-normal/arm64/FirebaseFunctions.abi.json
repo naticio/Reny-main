@@ -1,0 +1,5346 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseSharedSwift",
+      "printedName": "FirebaseSharedSwift",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Callable",
+      "printedName": "Callable",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "timeoutInterval",
+          "printedName": "timeoutInterval",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions8CallableV15timeoutIntervalSdvp",
+          "mangledName": "$s17FirebaseFunctions8CallableV15timeoutIntervalSdvp",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17FirebaseFunctions8CallableV15timeoutIntervalSdvg",
+              "mangledName": "$s17FirebaseFunctions8CallableV15timeoutIntervalSdvg",
+              "moduleName": "FirebaseFunctions",
+              "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+              "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17FirebaseFunctions8CallableV15timeoutIntervalSdvs",
+              "mangledName": "$s17FirebaseFunctions8CallableV15timeoutIntervalSdvs",
+              "moduleName": "FirebaseFunctions",
+              "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+              "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17FirebaseFunctions8CallableV15timeoutIntervalSdvM",
+              "mangledName": "$s17FirebaseFunctions8CallableV15timeoutIntervalSdvM",
+              "moduleName": "FirebaseFunctions",
+              "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+              "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "CallableError",
+          "printedName": "CallableError",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "internalError",
+              "printedName": "internalError",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "GenericFunction",
+                  "printedName": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable> (FirebaseFunctions.Callable<τ_0_0, τ_0_1>.CallableError.Type) -> FirebaseFunctions.Callable<τ_0_0, τ_0_1>.CallableError",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CallableError",
+                      "printedName": "FirebaseFunctions.Callable<τ_0_0, τ_0_1>.CallableError",
+                      "usr": "s:17FirebaseFunctions8CallableV0C5ErrorO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "FirebaseFunctions.Callable<τ_0_0, τ_0_1>.CallableError.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "CallableError",
+                          "printedName": "FirebaseFunctions.Callable<τ_0_0, τ_0_1>.CallableError",
+                          "usr": "s:17FirebaseFunctions8CallableV0C5ErrorO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:17FirebaseFunctions8CallableV0C5ErrorO08internalD0yAEyxq__GAGmSERzSeR_r0_lF",
+              "mangledName": "$s17FirebaseFunctions8CallableV0C5ErrorO08internalD0yAEyxq__GAGmSERzSeR_r0_lF",
+              "moduleName": "FirebaseFunctions",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Function",
+              "name": "__derived_enum_equals",
+              "printedName": "__derived_enum_equals(_:_:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CallableError",
+                  "printedName": "FirebaseFunctions.Callable<τ_0_0, τ_0_1>.CallableError",
+                  "usr": "s:17FirebaseFunctions8CallableV0C5ErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CallableError",
+                  "printedName": "FirebaseFunctions.Callable<τ_0_0, τ_0_1>.CallableError",
+                  "usr": "s:17FirebaseFunctions8CallableV0C5ErrorO"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:17FirebaseFunctions8CallableV0C5ErrorO21__derived_enum_equalsySbAEyxq__G_AGtFZ",
+              "mangledName": "$s17FirebaseFunctions8CallableV0C5ErrorO21__derived_enum_equalsySbAEyxq__G_AGtFZ",
+              "moduleName": "FirebaseFunctions",
+              "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+              "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Implements"
+              ],
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Var",
+              "name": "hashValue",
+              "printedName": "hashValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:17FirebaseFunctions8CallableV0C5ErrorO9hashValueSivp",
+              "mangledName": "$s17FirebaseFunctions8CallableV0C5ErrorO9hashValueSivp",
+              "moduleName": "FirebaseFunctions",
+              "implicit": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:17FirebaseFunctions8CallableV0C5ErrorO9hashValueSivg",
+                  "mangledName": "$s17FirebaseFunctions8CallableV0C5ErrorO9hashValueSivg",
+                  "moduleName": "FirebaseFunctions",
+                  "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+                  "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+                  "implicit": true,
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Function",
+              "name": "hash",
+              "printedName": "hash(into:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Hasher",
+                  "printedName": "Swift.Hasher",
+                  "paramValueOwnership": "InOut",
+                  "usr": "s:s6HasherV"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:17FirebaseFunctions8CallableV0C5ErrorO4hash4intoys6HasherVz_tF",
+              "mangledName": "$s17FirebaseFunctions8CallableV0C5ErrorO4hash4intoys6HasherVz_tF",
+              "moduleName": "FirebaseFunctions",
+              "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+              "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+              "implicit": true,
+              "funcSelfKind": "NonMutating"
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:17FirebaseFunctions8CallableV0C5ErrorO",
+          "mangledName": "$s17FirebaseFunctions8CallableV0C5ErrorO",
+          "moduleName": "FirebaseFunctions",
+          "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+          "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+          "isEnumExhaustive": true,
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Hashable",
+              "printedName": "Hashable",
+              "usr": "s:SH",
+              "mangledName": "$sSH"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Error",
+              "printedName": "Error",
+              "usr": "s:s5ErrorP",
+              "mangledName": "$ss5ErrorP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "callable",
+          "printedName": "callable",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HTTPSCallable",
+              "printedName": "FirebaseFunctions.HTTPSCallable",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions8CallableV8callable33_417298E05D07BF395946C919F9BDAE94LLAA13HTTPSCallableCvp",
+          "mangledName": "$s17FirebaseFunctions8CallableV8callable33_417298E05D07BF395946C919F9BDAE94LLAA13HTTPSCallableCvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "encoder",
+          "printedName": "encoder",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseDataEncoder",
+              "printedName": "FirebaseSharedSwift.FirebaseDataEncoder",
+              "usr": "s:19FirebaseSharedSwift0A11DataEncoderC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions8CallableV7encoder33_417298E05D07BF395946C919F9BDAE94LL0A11SharedSwift0A11DataEncoderCvp",
+          "mangledName": "$s17FirebaseFunctions8CallableV7encoder33_417298E05D07BF395946C919F9BDAE94LL0A11SharedSwift0A11DataEncoderCvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "decoder",
+          "printedName": "decoder",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseDataDecoder",
+              "printedName": "FirebaseSharedSwift.FirebaseDataDecoder",
+              "usr": "s:19FirebaseSharedSwift0A11DataDecoderC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions8CallableV7decoder33_417298E05D07BF395946C919F9BDAE94LL0A11SharedSwift0A11DataDecoderCvp",
+          "mangledName": "$s17FirebaseFunctions8CallableV7decoder33_417298E05D07BF395946C919F9BDAE94LL0A11SharedSwift0A11DataDecoderCvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(callable:encoder:decoder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Callable",
+              "printedName": "FirebaseFunctions.Callable<τ_0_0, τ_0_1>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_1"
+                }
+              ],
+              "usr": "s:17FirebaseFunctions8CallableV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "HTTPSCallable",
+              "printedName": "FirebaseFunctions.HTTPSCallable",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseDataEncoder",
+              "printedName": "FirebaseSharedSwift.FirebaseDataEncoder",
+              "usr": "s:19FirebaseSharedSwift0A11DataEncoderC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseDataDecoder",
+              "printedName": "FirebaseSharedSwift.FirebaseDataDecoder",
+              "usr": "s:19FirebaseSharedSwift0A11DataDecoderC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17FirebaseFunctions8CallableV8callable7encoder7decoderACyxq_GAA13HTTPSCallableC_0A11SharedSwift0A11DataEncoderCAJ0aJ7DecoderCtcfc",
+          "mangledName": "$s17FirebaseFunctions8CallableV8callable7encoder7decoderACyxq_GAA13HTTPSCallableC_0A11SharedSwift0A11DataEncoderCAJ0aJ7DecoderCtcfc",
+          "moduleName": "FirebaseFunctions",
+          "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+          "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "call",
+          "printedName": "call(_:completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_0"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Result<τ_0_1, Swift.Error>) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Result",
+                  "printedName": "Swift.Result<τ_0_1, Swift.Error>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_1"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Swift.Error",
+                      "usr": "s:s5ErrorP"
+                    }
+                  ],
+                  "usr": "s:s6ResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions8CallableV4call_10completionyx_ys6ResultOyq_s5Error_pGctF",
+          "mangledName": "$s17FirebaseFunctions8CallableV4call_10completionyx_ys6ResultOyq_s5Error_pGctF",
+          "moduleName": "FirebaseFunctions",
+          "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+          "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "callAsFunction",
+          "printedName": "callAsFunction(_:completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_0"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Result<τ_0_1, Swift.Error>) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Result",
+                  "printedName": "Swift.Result<τ_0_1, Swift.Error>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_1"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Swift.Error",
+                      "usr": "s:s5ErrorP"
+                    }
+                  ],
+                  "usr": "s:s6ResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions8CallableV14callAsFunction_10completionyx_ys6ResultOyq_s5Error_pGctF",
+          "mangledName": "$s17FirebaseFunctions8CallableV14callAsFunction_10completionyx_ys6ResultOyq_s5Error_pGctF",
+          "moduleName": "FirebaseFunctions",
+          "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+          "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "call",
+          "printedName": "call(_:encoder:decoder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_1"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_0"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseDataEncoder",
+              "printedName": "FirebaseSharedSwift.FirebaseDataEncoder",
+              "hasDefaultArg": true,
+              "usr": "s:19FirebaseSharedSwift0A11DataEncoderC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseDataDecoder",
+              "printedName": "FirebaseSharedSwift.FirebaseDataDecoder",
+              "hasDefaultArg": true,
+              "usr": "s:19FirebaseSharedSwift0A11DataDecoderC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions8CallableV4call_7encoder7decoderq_x_0A11SharedSwift0A11DataEncoderCAG0aI7DecoderCtYaKF",
+          "mangledName": "$s17FirebaseFunctions8CallableV4call_7encoder7decoderq_x_0A11SharedSwift0A11DataEncoderCAG0aI7DecoderCtYaKF",
+          "moduleName": "FirebaseFunctions",
+          "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+          "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+          "intro_Macosx": "10.15",
+          "intro_iOS": "13",
+          "intro_tvOS": "13",
+          "intro_watchOS": "7",
+          "declAttributes": [
+            "AccessControl",
+            "Available",
+            "Available",
+            "Available",
+            "Available",
+            "Available",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "callAsFunction",
+          "printedName": "callAsFunction(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_1"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_0"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions8CallableV14callAsFunctionyq_xYaKF",
+          "mangledName": "$s17FirebaseFunctions8CallableV14callAsFunctionyq_xYaKF",
+          "moduleName": "FirebaseFunctions",
+          "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+          "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+          "intro_Macosx": "10.15",
+          "intro_iOS": "13",
+          "intro_tvOS": "13",
+          "intro_watchOS": "7",
+          "declAttributes": [
+            "AccessControl",
+            "Available",
+            "Available",
+            "Available",
+            "Available",
+            "Available",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:17FirebaseFunctions8CallableV",
+      "mangledName": "$s17FirebaseFunctions8CallableV",
+      "moduleName": "FirebaseFunctions",
+      "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+      "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseAppCheckInterop",
+      "printedName": "FirebaseAppCheckInterop",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseAuthInterop",
+      "printedName": "FirebaseAuthInterop",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseCore",
+      "printedName": "FirebaseCore",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseMessagingInterop",
+      "printedName": "FirebaseMessagingInterop",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseSharedSwift",
+      "printedName": "FirebaseSharedSwift",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions"
+    },
+    {
+      "kind": "Import",
+      "name": "GTMSessionFetcherCore",
+      "printedName": "GTMSessionFetcherCore",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseCoreExtension",
+      "printedName": "FirebaseCoreExtension",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions",
+      "declAttributes": [
+        "ImplementationOnly",
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FunctionsConstants",
+      "printedName": "FunctionsConstants",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "defaultRegion",
+          "printedName": "defaultRegion",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B9ConstantsO13defaultRegionSSvpZ",
+          "mangledName": "$s17FirebaseFunctions0B9ConstantsO13defaultRegionSSvpZ",
+          "moduleName": "FirebaseFunctions",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17FirebaseFunctions0B9ConstantsO13defaultRegionSSvgZ",
+              "mangledName": "$s17FirebaseFunctions0B9ConstantsO13defaultRegionSSvgZ",
+              "moduleName": "FirebaseFunctions",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:17FirebaseFunctions0B9ConstantsO",
+      "mangledName": "$s17FirebaseFunctions0B9ConstantsO",
+      "moduleName": "FirebaseFunctions",
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Functions",
+      "printedName": "Functions",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "fetcherService",
+          "printedName": "fetcherService",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GTMSessionFetcherService",
+              "printedName": "GTMSessionFetcherCore.GTMSessionFetcherService",
+              "usr": "c:objc(cs)GTMSessionFetcherService"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B0C14fetcherService33_56C2D1B56868E9FE19792764619809B6LLSo017GTMSessionFetcherD0Cvp",
+          "mangledName": "$s17FirebaseFunctions0B0C14fetcherService33_56C2D1B56868E9FE19792764619809B6LLSo017GTMSessionFetcherD0Cvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "projectID",
+          "printedName": "projectID",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B0C9projectID33_56C2D1B56868E9FE19792764619809B6LLSSvp",
+          "mangledName": "$s17FirebaseFunctions0B0C9projectID33_56C2D1B56868E9FE19792764619809B6LLSSvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "serializer",
+          "printedName": "serializer",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FUNSerializer",
+              "printedName": "FirebaseFunctions.FUNSerializer",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FUNSerializer"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B0C10serializer33_56C2D1B56868E9FE19792764619809B6LLAA13FUNSerializerCvp",
+          "mangledName": "$s17FirebaseFunctions0B0C10serializer33_56C2D1B56868E9FE19792764619809B6LLAA13FUNSerializerCvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "contextProvider",
+          "printedName": "contextProvider",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FunctionsContextProvider",
+              "printedName": "FirebaseFunctions.FunctionsContextProvider",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FunctionsContextProvider"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B0C15contextProvider33_56C2D1B56868E9FE19792764619809B6LLAA0b7ContextD0Cvp",
+          "mangledName": "$s17FirebaseFunctions0B0C15contextProvider33_56C2D1B56868E9FE19792764619809B6LLAA0b7ContextD0Cvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "customDomain",
+          "printedName": "customDomain",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B0C12customDomainSSSgvp",
+          "mangledName": "$s17FirebaseFunctions0B0C12customDomainSSSgvp",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 4,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17FirebaseFunctions0B0C12customDomainSSSgvg",
+              "mangledName": "$s17FirebaseFunctions0B0C12customDomainSSSgvg",
+              "moduleName": "FirebaseFunctions",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "region",
+          "printedName": "region",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B0C6regionSSvp",
+          "mangledName": "$s17FirebaseFunctions0B0C6regionSSvp",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 5,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17FirebaseFunctions0B0C6regionSSvg",
+              "mangledName": "$s17FirebaseFunctions0B0C6regionSSvg",
+              "moduleName": "FirebaseFunctions",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "emulatorOrigin",
+          "printedName": "emulatorOrigin",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B0C14emulatorOriginSSSgvp",
+          "mangledName": "$s17FirebaseFunctions0B0C14emulatorOriginSSSgvp",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "SetterAccess",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17FirebaseFunctions0B0C14emulatorOriginSSSgvg",
+              "mangledName": "$s17FirebaseFunctions0B0C14emulatorOriginSSSgvg",
+              "moduleName": "FirebaseFunctions",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "functions",
+          "printedName": "functions()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Functions",
+              "printedName": "FirebaseFunctions.Functions",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions(cm)functions",
+          "mangledName": "$s17FirebaseFunctions0B0C9functionsACyFZ",
+          "moduleName": "FirebaseFunctions",
+          "static": true,
+          "isOpen": true,
+          "objc_name": "functions",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "functions",
+          "printedName": "functions(app:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Functions",
+              "printedName": "FirebaseFunctions.Functions",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseApp",
+              "printedName": "FirebaseCore.FirebaseApp",
+              "usr": "c:objc(cs)FIRApp"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions(cm)functionsForApp:",
+          "mangledName": "$s17FirebaseFunctions0B0C9functions3appACSo6FIRAppC_tFZ",
+          "moduleName": "FirebaseFunctions",
+          "static": true,
+          "isOpen": true,
+          "objc_name": "functionsForApp:",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "functions",
+          "printedName": "functions(region:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Functions",
+              "printedName": "FirebaseFunctions.Functions",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions(cm)functionsForRegion:",
+          "mangledName": "$s17FirebaseFunctions0B0C9functions6regionACSS_tFZ",
+          "moduleName": "FirebaseFunctions",
+          "static": true,
+          "isOpen": true,
+          "objc_name": "functionsForRegion:",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "functions",
+          "printedName": "functions(customDomain:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Functions",
+              "printedName": "FirebaseFunctions.Functions",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions(cm)functionsForCustomDomain:",
+          "mangledName": "$s17FirebaseFunctions0B0C9functions12customDomainACSS_tFZ",
+          "moduleName": "FirebaseFunctions",
+          "static": true,
+          "isOpen": true,
+          "objc_name": "functionsForCustomDomain:",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "functions",
+          "printedName": "functions(app:region:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Functions",
+              "printedName": "FirebaseFunctions.Functions",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseApp",
+              "printedName": "FirebaseCore.FirebaseApp",
+              "usr": "c:objc(cs)FIRApp"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions(cm)functionsForApp:region:",
+          "mangledName": "$s17FirebaseFunctions0B0C9functions3app6regionACSo6FIRAppC_SStFZ",
+          "moduleName": "FirebaseFunctions",
+          "static": true,
+          "isOpen": true,
+          "objc_name": "functionsForApp:region:",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "functions",
+          "printedName": "functions(app:customDomain:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Functions",
+              "printedName": "FirebaseFunctions.Functions",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseApp",
+              "printedName": "FirebaseCore.FirebaseApp",
+              "usr": "c:objc(cs)FIRApp"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions(cm)functionsForApp:customDomain:",
+          "mangledName": "$s17FirebaseFunctions0B0C9functions3app12customDomainACSo6FIRAppC_SStFZ",
+          "moduleName": "FirebaseFunctions",
+          "static": true,
+          "isOpen": true,
+          "objc_name": "functionsForApp:customDomain:",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "httpsCallable",
+          "printedName": "httpsCallable(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HTTPSCallable",
+              "printedName": "FirebaseFunctions.HTTPSCallable",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions(im)HTTPSCallableWithName:",
+          "mangledName": "$s17FirebaseFunctions0B0C13httpsCallableyAA13HTTPSCallableCSSF",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "objc_name": "HTTPSCallableWithName:",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "httpsCallable",
+          "printedName": "httpsCallable(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HTTPSCallable",
+              "printedName": "FirebaseFunctions.HTTPSCallable",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "URL",
+              "printedName": "Foundation.URL",
+              "usr": "s:10Foundation3URLV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions(im)HTTPSCallableWithURL:",
+          "mangledName": "$s17FirebaseFunctions0B0C13httpsCallableyAA13HTTPSCallableC10Foundation3URLVF",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "objc_name": "HTTPSCallableWithURL:",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "httpsCallable",
+          "printedName": "httpsCallable(_:requestAs:responseAs:encoder:decoder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Callable",
+              "printedName": "FirebaseFunctions.Callable<τ_0_0, τ_0_1>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_1"
+                }
+              ],
+              "usr": "s:17FirebaseFunctions8CallableV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Metatype",
+              "printedName": "τ_0_0.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "hasDefaultArg": true
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Metatype",
+              "printedName": "τ_0_1.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_1"
+                }
+              ],
+              "hasDefaultArg": true
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseDataEncoder",
+              "printedName": "FirebaseSharedSwift.FirebaseDataEncoder",
+              "hasDefaultArg": true,
+              "usr": "s:19FirebaseSharedSwift0A11DataEncoderC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseDataDecoder",
+              "printedName": "FirebaseSharedSwift.FirebaseDataDecoder",
+              "hasDefaultArg": true,
+              "usr": "s:19FirebaseSharedSwift0A11DataDecoderC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions0B0C13httpsCallable_9requestAs08responseF07encoder7decoderAA0D0Vyxq_GSS_xmq_m0A11SharedSwift0A11DataEncoderCAL0aL7DecoderCtSERzSeR_r0_lF",
+          "mangledName": "$s17FirebaseFunctions0B0C13httpsCallable_9requestAs08responseF07encoder7decoderAA0D0Vyxq_GSS_xmq_m0A11SharedSwift0A11DataEncoderCAL0aL7DecoderCtSERzSeR_r0_lF",
+          "moduleName": "FirebaseFunctions",
+          "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+          "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "httpsCallable",
+          "printedName": "httpsCallable(_:requestAs:responseAs:encoder:decoder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Callable",
+              "printedName": "FirebaseFunctions.Callable<τ_0_0, τ_0_1>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_1"
+                }
+              ],
+              "usr": "s:17FirebaseFunctions8CallableV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "URL",
+              "printedName": "Foundation.URL",
+              "usr": "s:10Foundation3URLV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Metatype",
+              "printedName": "τ_0_0.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "hasDefaultArg": true
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Metatype",
+              "printedName": "τ_0_1.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_1"
+                }
+              ],
+              "hasDefaultArg": true
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseDataEncoder",
+              "printedName": "FirebaseSharedSwift.FirebaseDataEncoder",
+              "hasDefaultArg": true,
+              "usr": "s:19FirebaseSharedSwift0A11DataEncoderC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseDataDecoder",
+              "printedName": "FirebaseSharedSwift.FirebaseDataDecoder",
+              "hasDefaultArg": true,
+              "usr": "s:19FirebaseSharedSwift0A11DataDecoderC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions0B0C13httpsCallable_9requestAs08responseF07encoder7decoderAA0D0Vyxq_G10Foundation3URLV_xmq_m0A11SharedSwift0A11DataEncoderCAO0aN7DecoderCtSERzSeR_r0_lF",
+          "mangledName": "$s17FirebaseFunctions0B0C13httpsCallable_9requestAs08responseF07encoder7decoderAA0D0Vyxq_G10Foundation3URLV_xmq_m0A11SharedSwift0A11DataEncoderCAO0aN7DecoderCtSERzSeR_r0_lF",
+          "moduleName": "FirebaseFunctions",
+          "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Encodable, τ_0_1 : Swift.Decodable>",
+          "sugared_genericSig": "<Request, Response where Request : Swift.Encodable, Response : Swift.Decodable>",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "useEmulator",
+          "printedName": "useEmulator(withHost:port:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions(im)useEmulatorWithHost:port:",
+          "mangledName": "$s17FirebaseFunctions0B0C11useEmulator8withHost4portySS_SitF",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "objc_name": "useEmulatorWithHost:port:",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(projectID:region:customDomain:auth:messaging:appCheck:fetcherService:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Functions",
+              "printedName": "FirebaseFunctions.Functions",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseAuthInterop.AuthInterop?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthInterop",
+                  "printedName": "FirebaseAuthInterop.AuthInterop",
+                  "usr": "c:objc(pl)FIRAuthInterop"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseMessagingInterop.MessagingInterop?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MessagingInterop",
+                  "printedName": "FirebaseMessagingInterop.MessagingInterop",
+                  "usr": "c:objc(pl)FIRMessagingInterop"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseAppCheckInterop.AppCheckInterop?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppCheckInterop",
+                  "printedName": "FirebaseAppCheckInterop.AppCheckInterop",
+                  "usr": "c:objc(pl)FIRAppCheckInterop"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "GTMSessionFetcherService",
+              "printedName": "GTMSessionFetcherCore.GTMSessionFetcherService",
+              "hasDefaultArg": true,
+              "usr": "c:objc(cs)GTMSessionFetcherService"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions(im)initWithProjectID:region:customDomain:auth:messaging:appCheck:fetcherService:",
+          "mangledName": "$s17FirebaseFunctions0B0C9projectID6region12customDomain4auth9messaging8appCheck14fetcherServiceACSS_S2SSgSo14FIRAuthInterop_pSgSo012FIRMessagingO0_pSgSo06FIRAppkO0_pSgSo017GTMSessionFetcherM0Ctcfc",
+          "moduleName": "FirebaseFunctions",
+          "objc_name": "initWithProjectID:region:customDomain:auth:messaging:appCheck:fetcherService:",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(app:region:customDomain:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Functions",
+              "printedName": "FirebaseFunctions.Functions",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseApp",
+              "printedName": "FirebaseCore.FirebaseApp",
+              "usr": "c:objc(cs)FIRApp"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17FirebaseFunctions0B0C3app6region12customDomainACSo6FIRAppC_S2SSgtcfc",
+          "mangledName": "$s17FirebaseFunctions0B0C3app6region12customDomainACSo6FIRAppC_S2SSgtcfc",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "Convenience",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "init_kind": "Convenience"
+        },
+        {
+          "kind": "Function",
+          "name": "urlWithName",
+          "printedName": "urlWithName(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions0B0C11urlWithNameyS2SF",
+          "mangledName": "$s17FirebaseFunctions0B0C11urlWithNameyS2SF",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "callFunction",
+          "printedName": "callFunction(name:withObject:timeout:completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Any?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Result<FirebaseFunctions.HTTPSCallableResult, Swift.Error>) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Result",
+                  "printedName": "Swift.Result<FirebaseFunctions.HTTPSCallableResult, Swift.Error>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPSCallableResult",
+                      "printedName": "FirebaseFunctions.HTTPSCallableResult",
+                      "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallableResult"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Swift.Error",
+                      "usr": "s:s5ErrorP"
+                    }
+                  ],
+                  "usr": "s:s6ResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions0B0C12callFunction4name10withObject7timeout10completionySS_ypSgSdys6ResultOyAA013HTTPSCallableJ0Cs5Error_pGctF",
+          "mangledName": "$s17FirebaseFunctions0B0C12callFunction4name10withObject7timeout10completionySS_ypSgSdys6ResultOyAA013HTTPSCallableJ0Cs5Error_pGctF",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "callFunction",
+          "printedName": "callFunction(url:withObject:timeout:completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "URL",
+              "printedName": "Foundation.URL",
+              "usr": "s:10Foundation3URLV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Any?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Result<FirebaseFunctions.HTTPSCallableResult, Swift.Error>) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Result",
+                  "printedName": "Swift.Result<FirebaseFunctions.HTTPSCallableResult, Swift.Error>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPSCallableResult",
+                      "printedName": "FirebaseFunctions.HTTPSCallableResult",
+                      "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallableResult"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Swift.Error",
+                      "usr": "s:s5ErrorP"
+                    }
+                  ],
+                  "usr": "s:s6ResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions0B0C12callFunction3url10withObject7timeout10completiony10Foundation3URLV_ypSgSdys6ResultOyAA013HTTPSCallableL0Cs5Error_pGctF",
+          "mangledName": "$s17FirebaseFunctions0B0C12callFunction3url10withObject7timeout10completiony10Foundation3URLV_ypSgSdys6ResultOyAA013HTTPSCallableL0Cs5Error_pGctF",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Functions",
+              "printedName": "FirebaseFunctions.Functions",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions(im)init",
+          "mangledName": "$s17FirebaseFunctions0B0CACycfc",
+          "moduleName": "FirebaseFunctions",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions",
+      "mangledName": "$s17FirebaseFunctions0B0C",
+      "moduleName": "FirebaseFunctions",
+      "isOpen": true,
+      "objc_name": "FIRFunctions",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC",
+        "RawDocComment"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "hasMissingDesignatedInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Var",
+      "name": "FunctionsErrorDomain",
+      "printedName": "FunctionsErrorDomain",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:17FirebaseFunctions0B11ErrorDomainSSvp",
+      "mangledName": "$s17FirebaseFunctions0B11ErrorDomainSSvp",
+      "moduleName": "FirebaseFunctions",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage",
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "isLet": true,
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "FunctionsErrorDetailsKey",
+      "printedName": "FunctionsErrorDetailsKey",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:17FirebaseFunctions0B15ErrorDetailsKeySSvp",
+      "mangledName": "$s17FirebaseFunctions0B15ErrorDetailsKeySSvp",
+      "moduleName": "FirebaseFunctions",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage",
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "isLet": true,
+      "hasStorage": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FunctionsErrorCode",
+      "printedName": "FunctionsErrorCode",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "OK",
+          "printedName": "OK",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeOK",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO2OKyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "cancelled",
+          "printedName": "cancelled",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeCancelled",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO9cancelledyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Var",
+          "name": "unknown",
+          "printedName": "unknown",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeUnknown",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO7unknownyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2
+        },
+        {
+          "kind": "Var",
+          "name": "invalidArgument",
+          "printedName": "invalidArgument",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeInvalidArgument",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO15invalidArgumentyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 3
+        },
+        {
+          "kind": "Var",
+          "name": "deadlineExceeded",
+          "printedName": "deadlineExceeded",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeDeadlineExceeded",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO16deadlineExceededyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 4
+        },
+        {
+          "kind": "Var",
+          "name": "notFound",
+          "printedName": "notFound",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeNotFound",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO8notFoundyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 5
+        },
+        {
+          "kind": "Var",
+          "name": "alreadyExists",
+          "printedName": "alreadyExists",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeAlreadyExists",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO13alreadyExistsyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 6
+        },
+        {
+          "kind": "Var",
+          "name": "permissionDenied",
+          "printedName": "permissionDenied",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodePermissionDenied",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO16permissionDeniedyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 7
+        },
+        {
+          "kind": "Var",
+          "name": "resourceExhausted",
+          "printedName": "resourceExhausted",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeResourceExhausted",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO17resourceExhaustedyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 8
+        },
+        {
+          "kind": "Var",
+          "name": "failedPrecondition",
+          "printedName": "failedPrecondition",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeFailedPrecondition",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO18failedPreconditionyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 9
+        },
+        {
+          "kind": "Var",
+          "name": "aborted",
+          "printedName": "aborted",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeAborted",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO7abortedyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 10
+        },
+        {
+          "kind": "Var",
+          "name": "outOfRange",
+          "printedName": "outOfRange",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeOutOfRange",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO10outOfRangeyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 11
+        },
+        {
+          "kind": "Var",
+          "name": "unimplemented",
+          "printedName": "unimplemented",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeUnimplemented",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO13unimplementedyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 12
+        },
+        {
+          "kind": "Var",
+          "name": "internal",
+          "printedName": "internal",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeInternal",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO8internalyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 13
+        },
+        {
+          "kind": "Var",
+          "name": "unavailable",
+          "printedName": "unavailable",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeUnavailable",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO11unavailableyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 14
+        },
+        {
+          "kind": "Var",
+          "name": "dataLoss",
+          "printedName": "dataLoss",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeDataLoss",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO8dataLossyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 15
+        },
+        {
+          "kind": "Var",
+          "name": "unauthenticated",
+          "printedName": "unauthenticated",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsErrorCode.Type) -> FirebaseFunctions.FunctionsErrorCode",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsErrorCode",
+                      "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode@FIRFunctionsErrorCodeUnauthenticated",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO15unauthenticatedyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 16
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(rawValue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseFunctions.FunctionsErrorCode?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FunctionsErrorCode",
+                  "printedName": "FirebaseFunctions.FunctionsErrorCode",
+                  "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17FirebaseFunctions0B9ErrorCodeO8rawValueACSgSi_tcfc",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO8rawValueACSgSi_tcfc",
+          "moduleName": "FirebaseFunctions",
+          "implicit": true,
+          "declAttributes": [
+            "Inlinable"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "rawValue",
+          "printedName": "rawValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B9ErrorCodeO8rawValueSivp",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO8rawValueSivp",
+          "moduleName": "FirebaseFunctions",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17FirebaseFunctions0B9ErrorCodeO8rawValueSivg",
+              "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO8rawValueSivg",
+              "moduleName": "FirebaseFunctions",
+              "implicit": true,
+              "declAttributes": [
+                "Inlinable"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "errorCode",
+          "printedName": "errorCode(forName:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FunctionsErrorCode",
+              "printedName": "FirebaseFunctions.FunctionsErrorCode",
+              "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions0B9ErrorCodeO05errorD07forNameACSS_tFZ",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO05errorD07forNameACSS_tFZ",
+          "moduleName": "FirebaseFunctions",
+          "static": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "descriptionForErrorCode",
+          "printedName": "descriptionForErrorCode",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B9ErrorCodeO014descriptionForcD0SSvp",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO014descriptionForcD0SSvp",
+          "moduleName": "FirebaseFunctions",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17FirebaseFunctions0B9ErrorCodeO014descriptionForcD0SSvg",
+              "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO014descriptionForcD0SSvg",
+              "moduleName": "FirebaseFunctions",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "generatedError",
+          "printedName": "generatedError(userInfo:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSError",
+              "printedName": "Foundation.NSError",
+              "usr": "c:objc(cs)NSError"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[Swift.String : Any]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[Swift.String : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions0B9ErrorCodeO09generatedC08userInfoSo7NSErrorCSDySSypGSg_tF",
+          "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO09generatedC08userInfoSo7NSErrorCSDySSypGSg_tF",
+          "moduleName": "FirebaseFunctions",
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode",
+      "mangledName": "$s17FirebaseFunctions0B9ErrorCodeO",
+      "moduleName": "FirebaseFunctions",
+      "objc_name": "FIRFunctionsErrorCode",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC",
+        "RawDocComment"
+      ],
+      "enumRawTypeName": "Int",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RawRepresentable",
+          "printedName": "RawRepresentable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "RawValue",
+              "printedName": "RawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SY",
+          "mangledName": "$sSY"
+        }
+      ]
+    },
+    {
+      "kind": "Function",
+      "name": "FunctionsCodeForHTTPStatus",
+      "printedName": "FunctionsCodeForHTTPStatus(_:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "FunctionsErrorCode",
+          "printedName": "FirebaseFunctions.FunctionsErrorCode",
+          "usr": "c:@M@FirebaseFunctions@E@FIRFunctionsErrorCode"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Int",
+          "printedName": "Swift.Int",
+          "usr": "s:Si"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:17FirebaseFunctions0B17CodeForHTTPStatusyAA0b5ErrorC0OSiF",
+      "mangledName": "$s17FirebaseFunctions0B17CodeForHTTPStatusyAA0b5ErrorC0OSiF",
+      "moduleName": "FirebaseFunctions",
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Function",
+      "name": "FunctionsErrorForResponse",
+      "printedName": "FunctionsErrorForResponse(status:body:serializer:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Optional",
+          "printedName": "Foundation.NSError?",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSError",
+              "printedName": "Foundation.NSError",
+              "usr": "c:objc(cs)NSError"
+            }
+          ],
+          "usr": "s:Sq"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Int",
+          "printedName": "Swift.Int",
+          "usr": "s:Si"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Optional",
+          "printedName": "Foundation.Data?",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Data",
+              "printedName": "Foundation.Data",
+              "usr": "s:10Foundation4DataV"
+            }
+          ],
+          "usr": "s:Sq"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "FUNSerializer",
+          "printedName": "FirebaseFunctions.FUNSerializer",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FUNSerializer"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:17FirebaseFunctions0B16ErrorForResponse6status4body10serializerSo7NSErrorCSgSi_10Foundation4DataVSgAA13FUNSerializerCtF",
+      "mangledName": "$s17FirebaseFunctions0B16ErrorForResponse6status4body10serializerSo7NSErrorCSgSi_10Foundation4DataVSgAA13FUNSerializerCtF",
+      "moduleName": "FirebaseFunctions",
+      "declAttributes": [
+        "AccessControl"
+      ],
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HTTPSCallableResult",
+      "printedName": "HTTPSCallableResult",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "data",
+          "printedName": "data",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ProtocolComposition",
+              "printedName": "Any"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallableResult(py)data",
+          "mangledName": "$s17FirebaseFunctions19HTTPSCallableResultC4dataypvp",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallableResult(im)data",
+              "mangledName": "$s17FirebaseFunctions19HTTPSCallableResultC4dataypvg",
+              "moduleName": "FirebaseFunctions",
+              "implicit": true,
+              "declAttributes": [
+                "Final",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(data:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HTTPSCallableResult",
+              "printedName": "FirebaseFunctions.HTTPSCallableResult",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallableResult"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ProtocolComposition",
+              "printedName": "Any"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17FirebaseFunctions19HTTPSCallableResultC4dataACyp_tcfc",
+          "mangledName": "$s17FirebaseFunctions19HTTPSCallableResultC4dataACyp_tcfc",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HTTPSCallableResult",
+              "printedName": "FirebaseFunctions.HTTPSCallableResult",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallableResult"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallableResult(im)init",
+          "mangledName": "$s17FirebaseFunctions19HTTPSCallableResultCACycfc",
+          "moduleName": "FirebaseFunctions",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallableResult",
+      "mangledName": "$s17FirebaseFunctions19HTTPSCallableResultC",
+      "moduleName": "FirebaseFunctions",
+      "isOpen": true,
+      "objc_name": "FIRHTTPSCallableResult",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC",
+        "RawDocComment"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "hasMissingDesignatedInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HTTPSCallable",
+      "printedName": "HTTPSCallable",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "functions",
+          "printedName": "functions",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Functions",
+              "printedName": "FirebaseFunctions.Functions",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions13HTTPSCallableC9functions33_FF5CDED1CBFDE9B63DD84E1E19AF57E0LLAA0B0Cvp",
+          "mangledName": "$s17FirebaseFunctions13HTTPSCallableC9functions33_FF5CDED1CBFDE9B63DD84E1E19AF57E0LLAA0B0Cvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "endpoint",
+          "printedName": "endpoint",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EndpointType",
+              "printedName": "FirebaseFunctions.HTTPSCallable.EndpointType",
+              "usr": "s:17FirebaseFunctions13HTTPSCallableC12EndpointType33_FF5CDED1CBFDE9B63DD84E1E19AF57E0LLO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions13HTTPSCallableC8endpoint33_FF5CDED1CBFDE9B63DD84E1E19AF57E0LLAC12EndpointTypeAELLOvp",
+          "mangledName": "$s17FirebaseFunctions13HTTPSCallableC8endpoint33_FF5CDED1CBFDE9B63DD84E1E19AF57E0LLAC12EndpointTypeAELLOvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "timeoutInterval",
+          "printedName": "timeoutInterval",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable(py)timeoutInterval",
+          "mangledName": "$s17FirebaseFunctions13HTTPSCallableC15timeoutIntervalSdvp",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable(im)timeoutInterval",
+              "mangledName": "$s17FirebaseFunctions13HTTPSCallableC15timeoutIntervalSdvg",
+              "moduleName": "FirebaseFunctions",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable(im)setTimeoutInterval:",
+              "mangledName": "$s17FirebaseFunctions13HTTPSCallableC15timeoutIntervalSdvs",
+              "moduleName": "FirebaseFunctions",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17FirebaseFunctions13HTTPSCallableC15timeoutIntervalSdvM",
+              "mangledName": "$s17FirebaseFunctions13HTTPSCallableC15timeoutIntervalSdvM",
+              "moduleName": "FirebaseFunctions",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(functions:name:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HTTPSCallable",
+              "printedName": "FirebaseFunctions.HTTPSCallable",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Functions",
+              "printedName": "FirebaseFunctions.Functions",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17FirebaseFunctions13HTTPSCallableC9functions4nameAcA0B0C_SStcfc",
+          "mangledName": "$s17FirebaseFunctions13HTTPSCallableC9functions4nameAcA0B0C_SStcfc",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(functions:url:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HTTPSCallable",
+              "printedName": "FirebaseFunctions.HTTPSCallable",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Functions",
+              "printedName": "FirebaseFunctions.Functions",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "URL",
+              "printedName": "Foundation.URL",
+              "usr": "s:10Foundation3URLV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17FirebaseFunctions13HTTPSCallableC9functions3urlAcA0B0C_10Foundation3URLVtcfc",
+          "mangledName": "$s17FirebaseFunctions13HTTPSCallableC9functions3urlAcA0B0C_10Foundation3URLVtcfc",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "call",
+          "printedName": "call(_:completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Any?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.HTTPSCallableResult?, Swift.Error?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(FirebaseFunctions.HTTPSCallableResult?, Swift.Error?)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "FirebaseFunctions.HTTPSCallableResult?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "HTTPSCallableResult",
+                          "printedName": "FirebaseFunctions.HTTPSCallableResult",
+                          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallableResult"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Swift.Error?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Error",
+                          "printedName": "Swift.Error",
+                          "usr": "s:s5ErrorP"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable(im)callWithObject:completion:",
+          "mangledName": "$s17FirebaseFunctions13HTTPSCallableC4call_10completionyypSg_yAA0C6ResultCSg_s5Error_pSgtctF",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "objc_name": "callWithObject:completion:",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "__call",
+          "printedName": "__call(completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.HTTPSCallableResult?, Swift.Error?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(FirebaseFunctions.HTTPSCallableResult?, Swift.Error?)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "FirebaseFunctions.HTTPSCallableResult?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "HTTPSCallableResult",
+                          "printedName": "FirebaseFunctions.HTTPSCallableResult",
+                          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallableResult"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Swift.Error?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Error",
+                          "printedName": "Swift.Error",
+                          "usr": "s:s5ErrorP"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable(im)callWithCompletion:",
+          "mangledName": "$s17FirebaseFunctions13HTTPSCallableC6__call10completionyyAA0C6ResultCSg_s5Error_pSgtc_tF",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "objc_name": "callWithCompletion:",
+          "declAttributes": [
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "call",
+          "printedName": "call(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HTTPSCallableResult",
+              "printedName": "FirebaseFunctions.HTTPSCallableResult",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallableResult"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Any?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions13HTTPSCallableC4callyAA0C6ResultCypSgYaKF",
+          "mangledName": "$s17FirebaseFunctions13HTTPSCallableC4callyAA0C6ResultCypSgYaKF",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "intro_Macosx": "10.15",
+          "intro_iOS": "13",
+          "intro_tvOS": "13",
+          "intro_watchOS": "7",
+          "declAttributes": [
+            "AccessControl",
+            "Available",
+            "Available",
+            "Available",
+            "Available",
+            "Available",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HTTPSCallable",
+              "printedName": "FirebaseFunctions.HTTPSCallable",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable(im)init",
+          "mangledName": "$s17FirebaseFunctions13HTTPSCallableCACycfc",
+          "moduleName": "FirebaseFunctions",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable",
+      "mangledName": "$s17FirebaseFunctions13HTTPSCallableC",
+      "moduleName": "FirebaseFunctions",
+      "isOpen": true,
+      "objc_name": "FIRHTTPSCallable",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC",
+        "RawDocComment"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "hasMissingDesignatedInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseAppCheckInterop",
+      "printedName": "FirebaseAppCheckInterop",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseAuthInterop",
+      "printedName": "FirebaseAuthInterop",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseCore",
+      "printedName": "FirebaseCore",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseMessagingInterop",
+      "printedName": "FirebaseMessagingInterop",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseCoreExtension",
+      "printedName": "FirebaseCoreExtension",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions",
+      "declAttributes": [
+        "ImplementationOnly",
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FunctionsProvider",
+      "printedName": "FunctionsProvider",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "functions",
+          "printedName": "functions(for:region:customDomain:type:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Functions",
+              "printedName": "FirebaseFunctions.Functions",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseApp",
+              "printedName": "FirebaseCore.FirebaseApp",
+              "usr": "c:objc(cs)FIRApp"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ExistentialMetatype",
+              "printedName": "AnyObject.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "AnyObject"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@FirebaseFunctions@objc(pl)FIRFunctionsProvider(im)functionsFor:region:customDomain:type:",
+          "mangledName": "$s17FirebaseFunctions0B8ProviderP9functions3for6region12customDomain4typeAA0B0CSo6FIRAppC_SSSgAMyXlXptF",
+          "moduleName": "FirebaseFunctions",
+          "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFunctions.FunctionsProvider>",
+          "sugared_genericSig": "<Self where Self : FirebaseFunctions.FunctionsProvider>",
+          "protocolReq": true,
+          "objc_name": "functionsFor:region:customDomain:type:",
+          "declAttributes": [
+            "ObjC"
+          ],
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "c:@M@FirebaseFunctions@objc(pl)FIRFunctionsProvider",
+      "mangledName": "$s17FirebaseFunctions0B8ProviderP",
+      "moduleName": "FirebaseFunctions",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>",
+      "objc_name": "FIRFunctionsProvider",
+      "declAttributes": [
+        "ObjC"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FunctionsComponent",
+      "printedName": "FunctionsComponent",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "app",
+          "printedName": "app",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseApp",
+              "printedName": "FirebaseCore.FirebaseApp",
+              "usr": "c:objc(cs)FIRApp"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B9ComponentC3app33_B78661EFB8E0F57F700CAD838C9F7B10LLSo6FIRAppCvp",
+          "mangledName": "$s17FirebaseFunctions0B9ComponentC3app33_B78661EFB8E0F57F700CAD838C9F7B10LLSo6FIRAppCvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "instances",
+          "printedName": "instances",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : [FirebaseFunctions.Functions]]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[FirebaseFunctions.Functions]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Functions",
+                      "printedName": "FirebaseFunctions.Functions",
+                      "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B9ComponentC9instances33_B78661EFB8E0F57F700CAD838C9F7B10LLSDySSSayAA0B0CGGvp",
+          "mangledName": "$s17FirebaseFunctions0B9ComponentC9instances33_B78661EFB8E0F57F700CAD838C9F7B10LLSDySSSayAA0B0CGGvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "instancesLock",
+          "printedName": "instancesLock",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "os_unfair_lock_s",
+              "printedName": "Darwin.os_unfair_lock_s",
+              "usr": "c:@S@os_unfair_lock_s"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B9ComponentC13instancesLock33_B78661EFB8E0F57F700CAD838C9F7B10LLSo16os_unfair_lock_sVvp",
+          "mangledName": "$s17FirebaseFunctions0B9ComponentC13instancesLock33_B78661EFB8E0F57F700CAD838C9F7B10LLSo16os_unfair_lock_sVvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(app:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FunctionsComponent",
+              "printedName": "FirebaseFunctions.FunctionsComponent",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctionsComponent"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseApp",
+              "printedName": "FirebaseCore.FirebaseApp",
+              "usr": "c:objc(cs)FIRApp"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17FirebaseFunctions0B9ComponentC3appACSo6FIRAppC_tcfc",
+          "mangledName": "$s17FirebaseFunctions0B9ComponentC3appACSo6FIRAppC_tcfc",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "Required",
+            "RawDocComment"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "componentsToRegister",
+          "printedName": "componentsToRegister()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[FirebaseCoreExtension.Component]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Component",
+                  "printedName": "FirebaseCoreExtension.Component",
+                  "usr": "c:objc(cs)FIRComponent"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctionsComponent(cm)componentsToRegister",
+          "mangledName": "$s17FirebaseFunctions0B9ComponentC20componentsToRegisterSaySo12FIRComponentCGyFZ",
+          "moduleName": "FirebaseFunctions",
+          "static": true,
+          "objc_name": "componentsToRegister",
+          "declAttributes": [
+            "Final",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "functions",
+          "printedName": "functions(for:region:customDomain:type:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Functions",
+              "printedName": "FirebaseFunctions.Functions",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctions"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FirebaseApp",
+              "printedName": "FirebaseCore.FirebaseApp",
+              "usr": "c:objc(cs)FIRApp"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ExistentialMetatype",
+              "printedName": "AnyObject.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "AnyObject"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctionsComponent(im)functionsFor:region:customDomain:type:",
+          "mangledName": "$s17FirebaseFunctions0B9ComponentC9functions3for6region12customDomain4typeAA0B0CSo6FIRAppC_SSSgAMyXlXptF",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "objc_name": "functionsFor:region:customDomain:type:",
+          "declAttributes": [
+            "ObjC",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FunctionsComponent",
+              "printedName": "FirebaseFunctions.FunctionsComponent",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctionsComponent"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctionsComponent(im)init",
+          "mangledName": "$s17FirebaseFunctions0B9ComponentCACycfc",
+          "moduleName": "FirebaseFunctions",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@FirebaseFunctions@objc(cs)FIRFunctionsComponent",
+      "mangledName": "$s17FirebaseFunctions0B9ComponentC",
+      "moduleName": "FirebaseFunctions",
+      "isOpen": true,
+      "objc_name": "FIRFunctionsComponent",
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "FunctionsProvider",
+          "printedName": "FunctionsProvider",
+          "usr": "c:@M@FirebaseFunctions@objc(pl)FIRFunctionsProvider",
+          "mangledName": "$s17FirebaseFunctions0B8ProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseAppCheckInterop",
+      "printedName": "FirebaseAppCheckInterop",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseAuthInterop",
+      "printedName": "FirebaseAuthInterop",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseMessagingInterop",
+      "printedName": "FirebaseMessagingInterop",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FunctionsContext",
+      "printedName": "FunctionsContext",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "authToken",
+          "printedName": "authToken",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B7ContextC9authTokenSSSgvp",
+          "mangledName": "$s17FirebaseFunctions0B7ContextC9authTokenSSSgvp",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17FirebaseFunctions0B7ContextC9authTokenSSSgvg",
+              "mangledName": "$s17FirebaseFunctions0B7ContextC9authTokenSSSgvg",
+              "moduleName": "FirebaseFunctions",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "fcmToken",
+          "printedName": "fcmToken",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B7ContextC8fcmTokenSSSgvp",
+          "mangledName": "$s17FirebaseFunctions0B7ContextC8fcmTokenSSSgvp",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17FirebaseFunctions0B7ContextC8fcmTokenSSSgvg",
+              "mangledName": "$s17FirebaseFunctions0B7ContextC8fcmTokenSSSgvg",
+              "moduleName": "FirebaseFunctions",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "appCheckToken",
+          "printedName": "appCheckToken",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B7ContextC13appCheckTokenSSSgvp",
+          "mangledName": "$s17FirebaseFunctions0B7ContextC13appCheckTokenSSSgvp",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:17FirebaseFunctions0B7ContextC13appCheckTokenSSSgvg",
+              "mangledName": "$s17FirebaseFunctions0B7ContextC13appCheckTokenSSSgvg",
+              "moduleName": "FirebaseFunctions",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(authToken:fcmToken:appCheckToken:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FunctionsContext",
+              "printedName": "FirebaseFunctions.FunctionsContext",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FunctionsContext"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17FirebaseFunctions0B7ContextC9authToken03fcmE008appCheckE0ACSSSg_A2Gtcfc",
+          "mangledName": "$s17FirebaseFunctions0B7ContextC9authToken03fcmE008appCheckE0ACSSSg_A2Gtcfc",
+          "moduleName": "FirebaseFunctions",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FunctionsContext",
+              "printedName": "FirebaseFunctions.FunctionsContext",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FunctionsContext"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FunctionsContext(im)init",
+          "mangledName": "$s17FirebaseFunctions0B7ContextCACycfc",
+          "moduleName": "FirebaseFunctions",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@FirebaseFunctions@objc(cs)FunctionsContext",
+      "mangledName": "$s17FirebaseFunctions0B7ContextC",
+      "moduleName": "FirebaseFunctions",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FunctionsContextProvider",
+      "printedName": "FunctionsContextProvider",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "auth",
+          "printedName": "auth",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseAuthInterop.AuthInterop?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthInterop",
+                  "printedName": "FirebaseAuthInterop.AuthInterop",
+                  "usr": "c:objc(pl)FIRAuthInterop"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B15ContextProviderC4auth33_9845628E591C4158B8B61D4F8F7D1EAELLSo14FIRAuthInterop_pSgvp",
+          "mangledName": "$s17FirebaseFunctions0B15ContextProviderC4auth33_9845628E591C4158B8B61D4F8F7D1EAELLSo14FIRAuthInterop_pSgvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "messaging",
+          "printedName": "messaging",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseMessagingInterop.MessagingInterop?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MessagingInterop",
+                  "printedName": "FirebaseMessagingInterop.MessagingInterop",
+                  "usr": "c:objc(pl)FIRMessagingInterop"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B15ContextProviderC9messaging33_9845628E591C4158B8B61D4F8F7D1EAELLSo19FIRMessagingInterop_pSgvp",
+          "mangledName": "$s17FirebaseFunctions0B15ContextProviderC9messaging33_9845628E591C4158B8B61D4F8F7D1EAELLSo19FIRMessagingInterop_pSgvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "appCheck",
+          "printedName": "appCheck",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseAppCheckInterop.AppCheckInterop?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppCheckInterop",
+                  "printedName": "FirebaseAppCheckInterop.AppCheckInterop",
+                  "usr": "c:objc(pl)FIRAppCheckInterop"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions0B15ContextProviderC8appCheck33_9845628E591C4158B8B61D4F8F7D1EAELLSo06FIRAppF7Interop_pSgvp",
+          "mangledName": "$s17FirebaseFunctions0B15ContextProviderC8appCheck33_9845628E591C4158B8B61D4F8F7D1EAELLSo06FIRAppF7Interop_pSgvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(auth:messaging:appCheck:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FunctionsContextProvider",
+              "printedName": "FirebaseFunctions.FunctionsContextProvider",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FunctionsContextProvider"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseAuthInterop.AuthInterop?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthInterop",
+                  "printedName": "FirebaseAuthInterop.AuthInterop",
+                  "usr": "c:objc(pl)FIRAuthInterop"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseMessagingInterop.MessagingInterop?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MessagingInterop",
+                  "printedName": "FirebaseMessagingInterop.MessagingInterop",
+                  "usr": "c:objc(pl)FIRMessagingInterop"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseAppCheckInterop.AppCheckInterop?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppCheckInterop",
+                  "printedName": "FirebaseAppCheckInterop.AppCheckInterop",
+                  "usr": "c:objc(pl)FIRAppCheckInterop"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:17FirebaseFunctions0B15ContextProviderC4auth9messaging8appCheckACSo14FIRAuthInterop_pSg_So012FIRMessagingJ0_pSgSo06FIRApphJ0_pSgtcfc",
+          "mangledName": "$s17FirebaseFunctions0B15ContextProviderC4auth9messaging8appCheckACSo14FIRAuthInterop_pSg_So012FIRMessagingJ0_pSgSo06FIRApphJ0_pSgtcfc",
+          "moduleName": "FirebaseFunctions",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "getContext",
+          "printedName": "getContext(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.FunctionsContext, Swift.Error?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(FirebaseFunctions.FunctionsContext, Swift.Error?)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FunctionsContext",
+                      "printedName": "FirebaseFunctions.FunctionsContext",
+                      "usr": "c:@M@FirebaseFunctions@objc(cs)FunctionsContext"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Swift.Error?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Error",
+                          "printedName": "Swift.Error",
+                          "usr": "s:s5ErrorP"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions0B15ContextProviderC03getC0yyyAA0bC0C_s5Error_pSgtcF",
+          "mangledName": "$s17FirebaseFunctions0B15ContextProviderC03getC0yyyAA0bC0C_s5Error_pSgtcF",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FunctionsContextProvider",
+              "printedName": "FirebaseFunctions.FunctionsContextProvider",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FunctionsContextProvider"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FunctionsContextProvider(im)init",
+          "mangledName": "$s17FirebaseFunctions0B15ContextProviderCACycfc",
+          "moduleName": "FirebaseFunctions",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@FirebaseFunctions@objc(cs)FunctionsContextProvider",
+      "mangledName": "$s17FirebaseFunctions0B15ContextProviderC",
+      "moduleName": "FirebaseFunctions",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctions",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SerializerError",
+      "printedName": "SerializerError",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "unsupportedType",
+          "printedName": "unsupportedType",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.SerializerError.Type) -> FirebaseFunctions.SerializerError",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SerializerError",
+                  "printedName": "FirebaseFunctions.SerializerError",
+                  "usr": "s:17FirebaseFunctions15SerializerErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.SerializerError.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "SerializerError",
+                      "printedName": "FirebaseFunctions.SerializerError",
+                      "usr": "s:17FirebaseFunctions15SerializerErrorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17FirebaseFunctions15SerializerErrorO15unsupportedTypeyA2CmF",
+          "mangledName": "$s17FirebaseFunctions15SerializerErrorO15unsupportedTypeyA2CmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "unknownNumberType",
+          "printedName": "unknownNumberType",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.SerializerError.Type) -> (Swift.String, Foundation.NSNumber) -> FirebaseFunctions.SerializerError",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Swift.String, Foundation.NSNumber) -> FirebaseFunctions.SerializerError",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "SerializerError",
+                      "printedName": "FirebaseFunctions.SerializerError",
+                      "usr": "s:17FirebaseFunctions15SerializerErrorO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(charValue: Swift.String, number: Foundation.NSNumber)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "NSNumber",
+                          "printedName": "Foundation.NSNumber",
+                          "usr": "c:objc(cs)NSNumber"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.SerializerError.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "SerializerError",
+                      "printedName": "FirebaseFunctions.SerializerError",
+                      "usr": "s:17FirebaseFunctions15SerializerErrorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17FirebaseFunctions15SerializerErrorO17unknownNumberTypeyACSS_So8NSNumberCtcACmF",
+          "mangledName": "$s17FirebaseFunctions15SerializerErrorO17unknownNumberTypeyACSS_So8NSNumberCtcACmF",
+          "moduleName": "FirebaseFunctions",
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Var",
+          "name": "invalidValueForType",
+          "printedName": "invalidValueForType",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FirebaseFunctions.SerializerError.Type) -> (Swift.String, Swift.String) -> FirebaseFunctions.SerializerError",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Swift.String, Swift.String) -> FirebaseFunctions.SerializerError",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "SerializerError",
+                      "printedName": "FirebaseFunctions.SerializerError",
+                      "usr": "s:17FirebaseFunctions15SerializerErrorO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(value: Swift.String, requestedType: Swift.String)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "FirebaseFunctions.SerializerError.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "SerializerError",
+                      "printedName": "FirebaseFunctions.SerializerError",
+                      "usr": "s:17FirebaseFunctions15SerializerErrorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:17FirebaseFunctions15SerializerErrorO19invalidValueForTypeyACSS_SStcACmF",
+          "mangledName": "$s17FirebaseFunctions15SerializerErrorO19invalidValueForTypeyACSS_SStcACmF",
+          "moduleName": "FirebaseFunctions",
+          "fixedbinaryorder": 2
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:17FirebaseFunctions15SerializerErrorO",
+      "mangledName": "$s17FirebaseFunctions15SerializerErrorO",
+      "moduleName": "FirebaseFunctions",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Error",
+          "printedName": "Error",
+          "usr": "s:s5ErrorP",
+          "mangledName": "$ss5ErrorP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FUNSerializer",
+      "printedName": "FUNSerializer",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "dateFormatter",
+          "printedName": "dateFormatter",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DateFormatter",
+              "printedName": "Foundation.DateFormatter",
+              "usr": "c:objc(cs)NSDateFormatter"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:17FirebaseFunctions13FUNSerializerC13dateFormatter33_2B4A5576B6FF6F84A3FA981B0D0A39F7LLSo06NSDateE0Cvp",
+          "mangledName": "$s17FirebaseFunctions13FUNSerializerC13dateFormatter33_2B4A5576B6FF6F84A3FA981B0D0A39F7LLSo06NSDateE0Cvp",
+          "moduleName": "FirebaseFunctions",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FUNSerializer",
+              "printedName": "FirebaseFunctions.FUNSerializer",
+              "usr": "c:@M@FirebaseFunctions@objc(cs)FUNSerializer"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@FirebaseFunctions@objc(cs)FUNSerializer(im)init",
+          "mangledName": "$s17FirebaseFunctions13FUNSerializerCACycfc",
+          "moduleName": "FirebaseFunctions",
+          "overriding": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ProtocolComposition",
+              "printedName": "AnyObject"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ProtocolComposition",
+              "printedName": "Any"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions13FUNSerializerC6encodeyyXlypKF",
+          "mangledName": "$s17FirebaseFunctions13FUNSerializerC6encodeyyXlypKF",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "decode",
+          "printedName": "decode(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "AnyObject?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "AnyObject"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ProtocolComposition",
+              "printedName": "Any"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions13FUNSerializerC6decodeyyXlSgypKF",
+          "mangledName": "$s17FirebaseFunctions13FUNSerializerC6decodeyyXlSgypKF",
+          "moduleName": "FirebaseFunctions",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@FirebaseFunctions@objc(cs)FUNSerializer",
+      "mangledName": "$s17FirebaseFunctions13FUNSerializerC",
+      "moduleName": "FirebaseFunctions",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

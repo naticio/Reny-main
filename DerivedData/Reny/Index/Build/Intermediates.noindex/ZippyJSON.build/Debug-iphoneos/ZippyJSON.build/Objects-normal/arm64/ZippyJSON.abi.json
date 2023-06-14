@@ -1,0 +1,4043 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "ZippyJSON",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "ZippyJSONCFamily",
+      "printedName": "ZippyJSONCFamily",
+      "declKind": "Import",
+      "moduleName": "ZippyJSON"
+    },
+    {
+      "kind": "Import",
+      "name": "JJLISO8601DateFormatter",
+      "printedName": "JJLISO8601DateFormatter",
+      "declKind": "Import",
+      "moduleName": "ZippyJSON"
+    },
+    {
+      "kind": "Import",
+      "name": "Combine",
+      "printedName": "Combine",
+      "declKind": "Import",
+      "moduleName": "ZippyJSON"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DictionaryWithoutKeyConversion",
+      "printedName": "DictionaryWithoutKeyConversion",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "elementType",
+          "printedName": "elementType",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ExistentialMetatype",
+              "printedName": "Swift.Decodable.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Decodable",
+                  "printedName": "Swift.Decodable",
+                  "usr": "s:Se"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9ZippyJSON30DictionaryWithoutKeyConversionP11elementTypeSe_pXpvpZ",
+          "mangledName": "$s9ZippyJSON30DictionaryWithoutKeyConversionP11elementTypeSe_pXpvpZ",
+          "moduleName": "ZippyJSON",
+          "static": true,
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ExistentialMetatype",
+                  "printedName": "Swift.Decodable.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Decodable",
+                      "printedName": "Swift.Decodable",
+                      "usr": "s:Se"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON30DictionaryWithoutKeyConversionP11elementTypeSe_pXpvgZ",
+              "mangledName": "$s9ZippyJSON30DictionaryWithoutKeyConversionP11elementTypeSe_pXpvgZ",
+              "moduleName": "ZippyJSON",
+              "genericSig": "<τ_0_0 where τ_0_0 : ZippyJSON.DictionaryWithoutKeyConversion>",
+              "sugared_genericSig": "<Self where Self : ZippyJSON.DictionaryWithoutKeyConversion>",
+              "static": true,
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:9ZippyJSON30DictionaryWithoutKeyConversionP",
+      "mangledName": "$s9ZippyJSON30DictionaryWithoutKeyConversionP",
+      "moduleName": "ZippyJSON",
+      "declAttributes": [
+        "AccessControl"
+      ]
+    },
+    {
+      "kind": "Function",
+      "name": "isOnSimulator",
+      "printedName": "isOnSimulator()",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Bool",
+          "printedName": "Swift.Bool",
+          "usr": "s:Sb"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:9ZippyJSON13isOnSimulatorSbyF",
+      "mangledName": "$s9ZippyJSON13isOnSimulatorSbyF",
+      "moduleName": "ZippyJSON",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ZippyJSONDecoder",
+      "printedName": "ZippyJSONDecoder",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "zjd_fullPrecisionFloatParsing",
+          "printedName": "zjd_fullPrecisionFloatParsing",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC29zjd_fullPrecisionFloatParsingSbvp",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC29zjd_fullPrecisionFloatParsingSbvp",
+          "moduleName": "ZippyJSON",
+          "deprecated": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "AccessControl",
+            "Available"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC29zjd_fullPrecisionFloatParsingSbvg",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC29zjd_fullPrecisionFloatParsingSbvg",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC29zjd_fullPrecisionFloatParsingSbvs",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC29zjd_fullPrecisionFloatParsingSbvs",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC29zjd_fullPrecisionFloatParsingSbvM",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC29zjd_fullPrecisionFloatParsingSbvM",
+              "moduleName": "ZippyJSON",
+              "deprecated": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final",
+                "Available"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "zjd_suppressWarnings",
+          "printedName": "zjd_suppressWarnings",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC20zjd_suppressWarningsSbvpZ",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC20zjd_suppressWarningsSbvpZ",
+          "moduleName": "ZippyJSON",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20zjd_suppressWarningsSbvgZ",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20zjd_suppressWarningsSbvgZ",
+              "moduleName": "ZippyJSON",
+              "static": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20zjd_suppressWarningsSbvsZ",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20zjd_suppressWarningsSbvsZ",
+              "moduleName": "ZippyJSON",
+              "static": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20zjd_suppressWarningsSbvMZ",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20zjd_suppressWarningsSbvMZ",
+              "moduleName": "ZippyJSON",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "decode",
+          "printedName": "decode(_:from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_0"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Metatype",
+              "printedName": "τ_0_0.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Data",
+              "printedName": "Foundation.Data",
+              "usr": "s:10Foundation4DataV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC6decode_4fromxxm_10Foundation4DataVtKSeRzlF",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC6decode_4fromxxm_10Foundation4DataVtKSeRzlF",
+          "moduleName": "ZippyJSON",
+          "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+          "sugared_genericSig": "<T where T : Swift.Decodable>",
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "decodeWithAppleDecoder",
+          "printedName": "decodeWithAppleDecoder(_:from:reason:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_0"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Metatype",
+              "printedName": "τ_0_0.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Data",
+              "printedName": "Foundation.Data",
+              "usr": "s:10Foundation4DataV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC22decodeWithAppleDecoder_4from6reasonxxm_10Foundation4DataVSSSgtKSeRzlF",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC22decodeWithAppleDecoder_4from6reasonxxm_10Foundation4DataVSSSgtKSeRzlF",
+          "moduleName": "ZippyJSON",
+          "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+          "sugared_genericSig": "<T where T : Swift.Decodable>",
+          "declAttributes": [
+            "Final"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "convertNonConformingFloatDecodingStrategy",
+          "printedName": "convertNonConformingFloatDecodingStrategy(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NonConformingFloatDecodingStrategy",
+              "printedName": "Foundation.JSONDecoder.NonConformingFloatDecodingStrategy",
+              "usr": "s:10Foundation11JSONDecoderC34NonConformingFloatDecodingStrategyO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NonConformingFloatDecodingStrategy",
+              "printedName": "ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC34NonConformingFloatDecodingStrategyO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC41convertNonConformingFloatDecodingStrategyy10Foundation0C0C0efghI0OAcHOFZ",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC41convertNonConformingFloatDecodingStrategyy10Foundation0C0C0efghI0OAcHOFZ",
+          "moduleName": "ZippyJSON",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "convertDateDecodingStrategy",
+          "printedName": "convertDateDecodingStrategy(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DateDecodingStrategy",
+              "printedName": "Foundation.JSONDecoder.DateDecodingStrategy",
+              "usr": "s:10Foundation11JSONDecoderC20DateDecodingStrategyO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DateDecodingStrategy",
+              "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC27convertDateDecodingStrategyy10Foundation0C0C0efG0OAcHOFZ",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC27convertDateDecodingStrategyy10Foundation0C0C0efG0OAcHOFZ",
+          "moduleName": "ZippyJSON",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "convertDataDecodingStrategy",
+          "printedName": "convertDataDecodingStrategy(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DataDecodingStrategy",
+              "printedName": "Foundation.JSONDecoder.DataDecodingStrategy",
+              "usr": "s:10Foundation11JSONDecoderC20DataDecodingStrategyO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DataDecodingStrategy",
+              "printedName": "ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC27convertDataDecodingStrategyy10Foundation0C0C0efG0OAcHOFZ",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC27convertDataDecodingStrategyy10Foundation0C0C0efG0OAcHOFZ",
+          "moduleName": "ZippyJSON",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "convertKeyDecodingStrategy",
+          "printedName": "convertKeyDecodingStrategy(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "KeyDecodingStrategy",
+              "printedName": "Foundation.JSONDecoder.KeyDecodingStrategy",
+              "usr": "s:10Foundation11JSONDecoderC19KeyDecodingStrategyO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "KeyDecodingStrategy",
+              "printedName": "ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC26convertKeyDecodingStrategyy10Foundation0C0C0efG0OAcHOFZ",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC26convertKeyDecodingStrategyy10Foundation0C0C0efG0OAcHOFZ",
+          "moduleName": "ZippyJSON",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "userInfo",
+          "printedName": "userInfo",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.CodingUserInfoKey : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CodingUserInfoKey",
+                  "printedName": "Swift.CodingUserInfoKey",
+                  "usr": "s:s17CodingUserInfoKeyV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC8userInfoSDys010CodingUserE3KeyVypGvp",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC8userInfoSDys010CodingUserE3KeyVypGvp",
+          "moduleName": "ZippyJSON",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[Swift.CodingUserInfoKey : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CodingUserInfoKey",
+                      "printedName": "Swift.CodingUserInfoKey",
+                      "usr": "s:s17CodingUserInfoKeyV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC8userInfoSDys010CodingUserE3KeyVypGvg",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC8userInfoSDys010CodingUserE3KeyVypGvg",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[Swift.CodingUserInfoKey : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CodingUserInfoKey",
+                      "printedName": "Swift.CodingUserInfoKey",
+                      "usr": "s:s17CodingUserInfoKeyV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC8userInfoSDys010CodingUserE3KeyVypGvs",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC8userInfoSDys010CodingUserE3KeyVypGvs",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC8userInfoSDys010CodingUserE3KeyVypGvM",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC8userInfoSDys010CodingUserE3KeyVypGvM",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "nonConformingFloatDecodingStrategy",
+          "printedName": "nonConformingFloatDecodingStrategy",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NonConformingFloatDecodingStrategy",
+              "printedName": "ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC34NonConformingFloatDecodingStrategyO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC34nonConformingFloatDecodingStrategyAC03NonefgH0Ovp",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC34nonConformingFloatDecodingStrategyAC03NonefgH0Ovp",
+          "moduleName": "ZippyJSON",
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NonConformingFloatDecodingStrategy",
+                  "printedName": "ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy",
+                  "usr": "s:9ZippyJSON0A11JSONDecoderC34NonConformingFloatDecodingStrategyO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC34nonConformingFloatDecodingStrategyAC03NonefgH0Ovg",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC34nonConformingFloatDecodingStrategyAC03NonefgH0Ovg",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "NonConformingFloatDecodingStrategy",
+                  "printedName": "ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy",
+                  "usr": "s:9ZippyJSON0A11JSONDecoderC34NonConformingFloatDecodingStrategyO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC34nonConformingFloatDecodingStrategyAC03NonefgH0Ovs",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC34nonConformingFloatDecodingStrategyAC03NonefgH0Ovs",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC34nonConformingFloatDecodingStrategyAC03NonefgH0OvM",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC34nonConformingFloatDecodingStrategyAC03NonefgH0OvM",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "NonConformingFloatDecodingStrategy",
+          "printedName": "NonConformingFloatDecodingStrategy",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "throw",
+              "printedName": "throw",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy.Type) -> ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NonConformingFloatDecodingStrategy",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy",
+                      "usr": "s:9ZippyJSON0A11JSONDecoderC34NonConformingFloatDecodingStrategyO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "NonConformingFloatDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC34NonConformingFloatDecodingStrategyO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC34NonConformingFloatDecodingStrategyO5throwyA2EmF",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC34NonConformingFloatDecodingStrategyO5throwyA2EmF",
+              "moduleName": "ZippyJSON",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "convertFromString",
+              "printedName": "convertFromString",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy.Type) -> (Swift.String, Swift.String, Swift.String) -> ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Swift.String, Swift.String, Swift.String) -> ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "NonConformingFloatDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC34NonConformingFloatDecodingStrategyO"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Tuple",
+                          "printedName": "(positiveInfinity: Swift.String, negativeInfinity: Swift.String, nan: Swift.String)",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "String",
+                              "printedName": "Swift.String",
+                              "usr": "s:SS"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "String",
+                              "printedName": "Swift.String",
+                              "usr": "s:SS"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "String",
+                              "printedName": "Swift.String",
+                              "usr": "s:SS"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "NonConformingFloatDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.NonConformingFloatDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC34NonConformingFloatDecodingStrategyO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC34NonConformingFloatDecodingStrategyO17convertFromStringyAESS_S2StcAEmF",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC34NonConformingFloatDecodingStrategyO17convertFromStringyAESS_S2StcAEmF",
+              "moduleName": "ZippyJSON",
+              "fixedbinaryorder": 1
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC34NonConformingFloatDecodingStrategyO",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC34NonConformingFloatDecodingStrategyO",
+          "moduleName": "ZippyJSON",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "isEnumExhaustive": true
+        },
+        {
+          "kind": "Var",
+          "name": "dataDecodingStrategy",
+          "printedName": "dataDecodingStrategy",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DataDecodingStrategy",
+              "printedName": "ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC20dataDecodingStrategyAC04DataeF0Ovp",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC20dataDecodingStrategyAC04DataeF0Ovp",
+          "moduleName": "ZippyJSON",
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DataDecodingStrategy",
+                  "printedName": "ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy",
+                  "usr": "s:9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20dataDecodingStrategyAC04DataeF0Ovg",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20dataDecodingStrategyAC04DataeF0Ovg",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "DataDecodingStrategy",
+                  "printedName": "ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy",
+                  "usr": "s:9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20dataDecodingStrategyAC04DataeF0Ovs",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20dataDecodingStrategyAC04DataeF0Ovs",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20dataDecodingStrategyAC04DataeF0OvM",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20dataDecodingStrategyAC04DataeF0OvM",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "DataDecodingStrategy",
+          "printedName": "DataDecodingStrategy",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "deferredToData",
+              "printedName": "deferredToData",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy.Type) -> ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DataDecodingStrategy",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy",
+                      "usr": "s:9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DataDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO010deferredToD0yA2EmF",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO010deferredToD0yA2EmF",
+              "moduleName": "ZippyJSON",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "base64",
+              "printedName": "base64",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy.Type) -> ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DataDecodingStrategy",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy",
+                      "usr": "s:9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DataDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO6base64yA2EmF",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO6base64yA2EmF",
+              "moduleName": "ZippyJSON",
+              "fixedbinaryorder": 1
+            },
+            {
+              "kind": "Var",
+              "name": "custom",
+              "printedName": "custom",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy.Type) -> (@escaping (Swift.Decoder) throws -> Foundation.Data) -> ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(@escaping (Swift.Decoder) throws -> Foundation.Data) -> ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DataDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(Swift.Decoder) throws -> Foundation.Data",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Data",
+                              "printedName": "Foundation.Data",
+                              "usr": "s:10Foundation4DataV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Decoder",
+                              "printedName": "Swift.Decoder",
+                              "usr": "s:s7DecoderP"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DataDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.DataDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO6customyAE10Foundation0D0Vs7Decoder_pKccAEmF",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO6customyAE10Foundation0D0Vs7Decoder_pKccAEmF",
+              "moduleName": "ZippyJSON",
+              "fixedbinaryorder": 2
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC20DataDecodingStrategyO",
+          "moduleName": "ZippyJSON",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "isEnumExhaustive": true
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "KeyDecodingStrategy",
+          "printedName": "KeyDecodingStrategy",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "useDefaultKeys",
+              "printedName": "useDefaultKeys",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy.Type) -> ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "KeyDecodingStrategy",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy",
+                      "usr": "s:9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "KeyDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO14useDefaultKeysyA2EmF",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO14useDefaultKeysyA2EmF",
+              "moduleName": "ZippyJSON",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "convertFromSnakeCase",
+              "printedName": "convertFromSnakeCase",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy.Type) -> ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "KeyDecodingStrategy",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy",
+                      "usr": "s:9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "KeyDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO20convertFromSnakeCaseyA2EmF",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO20convertFromSnakeCaseyA2EmF",
+              "moduleName": "ZippyJSON",
+              "fixedbinaryorder": 1
+            },
+            {
+              "kind": "Var",
+              "name": "custom",
+              "printedName": "custom",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy.Type) -> (@escaping ([Swift.CodingKey]) -> Swift.CodingKey) -> ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(@escaping ([Swift.CodingKey]) -> Swift.CodingKey) -> ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "KeyDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "([Swift.CodingKey]) -> Swift.CodingKey",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "CodingKey",
+                              "printedName": "Swift.CodingKey",
+                              "usr": "s:s9CodingKeyP"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Array",
+                              "printedName": "[Swift.CodingKey]",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "CodingKey",
+                                  "printedName": "Swift.CodingKey",
+                                  "usr": "s:s9CodingKeyP"
+                                }
+                              ],
+                              "usr": "s:Sa"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "KeyDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO6customyAEs06CodingD0_pSaysAG_pGccAEmF",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO6customyAEs06CodingD0_pSaysAG_pGccAEmF",
+              "moduleName": "ZippyJSON",
+              "fixedbinaryorder": 2
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO",
+          "moduleName": "ZippyJSON",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "isEnumExhaustive": true
+        },
+        {
+          "kind": "Var",
+          "name": "keyDecodingStrategy",
+          "printedName": "keyDecodingStrategy",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "KeyDecodingStrategy",
+              "printedName": "ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC19keyDecodingStrategyAC03KeyeF0Ovp",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC19keyDecodingStrategyAC03KeyeF0Ovp",
+          "moduleName": "ZippyJSON",
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "KeyDecodingStrategy",
+                  "printedName": "ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy",
+                  "usr": "s:9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC19keyDecodingStrategyAC03KeyeF0Ovg",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC19keyDecodingStrategyAC03KeyeF0Ovg",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "KeyDecodingStrategy",
+                  "printedName": "ZippyJSON.ZippyJSONDecoder.KeyDecodingStrategy",
+                  "usr": "s:9ZippyJSON0A11JSONDecoderC19KeyDecodingStrategyO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC19keyDecodingStrategyAC03KeyeF0Ovs",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC19keyDecodingStrategyAC03KeyeF0Ovs",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC19keyDecodingStrategyAC03KeyeF0OvM",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC19keyDecodingStrategyAC03KeyeF0OvM",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "DateDecodingStrategy",
+          "printedName": "DateDecodingStrategy",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "deferredToDate",
+              "printedName": "deferredToDate",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy.Type) -> ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DateDecodingStrategy",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                      "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DateDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO010deferredToD0yA2EmF",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO010deferredToD0yA2EmF",
+              "moduleName": "ZippyJSON",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "secondsSince1970",
+              "printedName": "secondsSince1970",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy.Type) -> ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DateDecodingStrategy",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                      "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DateDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO16secondsSince1970yA2EmF",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO16secondsSince1970yA2EmF",
+              "moduleName": "ZippyJSON",
+              "fixedbinaryorder": 1
+            },
+            {
+              "kind": "Var",
+              "name": "millisecondsSince1970",
+              "printedName": "millisecondsSince1970",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy.Type) -> ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DateDecodingStrategy",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                      "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DateDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO21millisecondsSince1970yA2EmF",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO21millisecondsSince1970yA2EmF",
+              "moduleName": "ZippyJSON",
+              "fixedbinaryorder": 2
+            },
+            {
+              "kind": "Var",
+              "name": "iso8601",
+              "printedName": "iso8601",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy.Type) -> ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DateDecodingStrategy",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                      "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DateDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO7iso8601yA2EmF",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO7iso8601yA2EmF",
+              "moduleName": "ZippyJSON",
+              "fixedbinaryorder": 3
+            },
+            {
+              "kind": "Var",
+              "name": "formatted",
+              "printedName": "formatted",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy.Type) -> (Foundation.DateFormatter) -> ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Foundation.DateFormatter) -> ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DateDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DateFormatter",
+                          "printedName": "Foundation.DateFormatter",
+                          "usr": "c:objc(cs)NSDateFormatter"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DateDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO9formattedyAESo15NSDateFormatterCcAEmF",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO9formattedyAESo15NSDateFormatterCcAEmF",
+              "moduleName": "ZippyJSON",
+              "fixedbinaryorder": 4
+            },
+            {
+              "kind": "Var",
+              "name": "custom",
+              "printedName": "custom",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy.Type) -> (@escaping (Swift.Decoder) throws -> Foundation.Date) -> ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(@escaping (Swift.Decoder) throws -> Foundation.Date) -> ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DateDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(Swift.Decoder) throws -> Foundation.Date",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Date",
+                              "printedName": "Foundation.Date",
+                              "usr": "s:10Foundation4DateV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Decoder",
+                              "printedName": "Swift.Decoder",
+                              "usr": "s:s7DecoderP"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DateDecodingStrategy",
+                          "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                          "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO6customyAE10Foundation0D0Vs7Decoder_pKccAEmF",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO6customyAE10Foundation0D0Vs7Decoder_pKccAEmF",
+              "moduleName": "ZippyJSON",
+              "fixedbinaryorder": 5
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO",
+          "moduleName": "ZippyJSON",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "isEnumExhaustive": true
+        },
+        {
+          "kind": "Var",
+          "name": "dateDecodingStrategy",
+          "printedName": "dateDecodingStrategy",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DateDecodingStrategy",
+              "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC20dateDecodingStrategyAC04DateeF0Ovp",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC20dateDecodingStrategyAC04DateeF0Ovp",
+          "moduleName": "ZippyJSON",
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DateDecodingStrategy",
+                  "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                  "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20dateDecodingStrategyAC04DateeF0Ovg",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20dateDecodingStrategyAC04DateeF0Ovg",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "DateDecodingStrategy",
+                  "printedName": "ZippyJSON.ZippyJSONDecoder.DateDecodingStrategy",
+                  "usr": "s:9ZippyJSON0A11JSONDecoderC20DateDecodingStrategyO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20dateDecodingStrategyAC04DateeF0Ovs",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20dateDecodingStrategyAC04DateeF0Ovs",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC20dateDecodingStrategyAC04DateeF0OvM",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC20dateDecodingStrategyAC04DateeF0OvM",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "convertCase",
+          "printedName": "convertCase",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9ZippyJSON0A11JSONDecoderC11convertCaseSbvp",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderC11convertCaseSbvp",
+          "moduleName": "ZippyJSON",
+          "declAttributes": [
+            "Final"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC11convertCaseSbvg",
+              "mangledName": "$s9ZippyJSON0A11JSONDecoderC11convertCaseSbvg",
+              "moduleName": "ZippyJSON",
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ZippyJSONDecoder",
+              "printedName": "ZippyJSON.ZippyJSONDecoder",
+              "usr": "s:9ZippyJSON0A11JSONDecoderC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9ZippyJSON0A11JSONDecoderCACycfc",
+          "mangledName": "$s9ZippyJSON0A11JSONDecoderCACycfc",
+          "moduleName": "ZippyJSON",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9ZippyJSON0A11JSONDecoderC",
+      "mangledName": "$s9ZippyJSON0A11JSONDecoderC",
+      "moduleName": "ZippyJSON",
+      "declAttributes": [
+        "Final",
+        "AccessControl"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "TopLevelDecoder",
+          "printedName": "TopLevelDecoder",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Input",
+              "printedName": "Input",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Data",
+                  "printedName": "Foundation.Data",
+                  "usr": "s:10Foundation4DataV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7Combine15TopLevelDecoderP",
+          "mangledName": "$s7Combine15TopLevelDecoderP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "JSONKey",
+      "printedName": "JSONKey",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "stringValue",
+          "printedName": "stringValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9ZippyJSON7JSONKeyV11stringValueSSvp",
+          "mangledName": "$s9ZippyJSON7JSONKeyV11stringValueSSvp",
+          "moduleName": "ZippyJSON",
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON7JSONKeyV11stringValueSSvg",
+              "mangledName": "$s9ZippyJSON7JSONKeyV11stringValueSSvg",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON7JSONKeyV11stringValueSSvs",
+              "mangledName": "$s9ZippyJSON7JSONKeyV11stringValueSSvs",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON7JSONKeyV11stringValueSSvM",
+              "mangledName": "$s9ZippyJSON7JSONKeyV11stringValueSSvM",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "intValue",
+          "printedName": "intValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9ZippyJSON7JSONKeyV8intValueSiSgvp",
+          "mangledName": "$s9ZippyJSON7JSONKeyV8intValueSiSgvp",
+          "moduleName": "ZippyJSON",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON7JSONKeyV8intValueSiSgvg",
+              "mangledName": "$s9ZippyJSON7JSONKeyV8intValueSiSgvg",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON7JSONKeyV8intValueSiSgvs",
+              "mangledName": "$s9ZippyJSON7JSONKeyV8intValueSiSgvs",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON7JSONKeyV8intValueSiSgvM",
+              "mangledName": "$s9ZippyJSON7JSONKeyV8intValueSiSgvM",
+              "moduleName": "ZippyJSON",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(stringValue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "ZippyJSON.JSONKey?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "JSONKey",
+                  "printedName": "ZippyJSON.JSONKey",
+                  "usr": "s:9ZippyJSON7JSONKeyV"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9ZippyJSON7JSONKeyV11stringValueACSgSS_tcfc",
+          "mangledName": "$s9ZippyJSON7JSONKeyV11stringValueACSgSS_tcfc",
+          "moduleName": "ZippyJSON",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(intValue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "ZippyJSON.JSONKey?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "JSONKey",
+                  "printedName": "ZippyJSON.JSONKey",
+                  "usr": "s:9ZippyJSON7JSONKeyV"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9ZippyJSON7JSONKeyV8intValueACSgSi_tcfc",
+          "mangledName": "$s9ZippyJSON7JSONKeyV8intValueACSgSi_tcfc",
+          "moduleName": "ZippyJSON",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(stringValue:intValue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "JSONKey",
+              "printedName": "ZippyJSON.JSONKey",
+              "usr": "s:9ZippyJSON7JSONKeyV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9ZippyJSON7JSONKeyV11stringValue03intE0ACSS_SiSgtcfc",
+          "mangledName": "$s9ZippyJSON7JSONKeyV11stringValue03intE0ACSS_SiSgtcfc",
+          "moduleName": "ZippyJSON",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(index:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "JSONKey",
+              "printedName": "ZippyJSON.JSONKey",
+              "usr": "s:9ZippyJSON7JSONKeyV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9ZippyJSON7JSONKeyV5indexACSi_tcfc",
+          "mangledName": "$s9ZippyJSON7JSONKeyV5indexACSi_tcfc",
+          "moduleName": "ZippyJSON",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "super",
+          "printedName": "super",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "JSONKey",
+              "printedName": "ZippyJSON.JSONKey",
+              "usr": "s:9ZippyJSON7JSONKeyV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9ZippyJSON7JSONKeyV5superACvpZ",
+          "mangledName": "$s9ZippyJSON7JSONKeyV5superACvpZ",
+          "moduleName": "ZippyJSON",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "JSONKey",
+                  "printedName": "ZippyJSON.JSONKey",
+                  "usr": "s:9ZippyJSON7JSONKeyV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9ZippyJSON7JSONKeyV5superACvgZ",
+              "mangledName": "$s9ZippyJSON7JSONKeyV5superACvgZ",
+              "moduleName": "ZippyJSON",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9ZippyJSON7JSONKeyV",
+      "mangledName": "$s9ZippyJSON7JSONKeyV",
+      "moduleName": "ZippyJSON",
+      "declAttributes": [
+        "AccessControl"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "CodingKey",
+          "printedName": "CodingKey",
+          "usr": "s:s9CodingKeyP",
+          "mangledName": "$ss9CodingKeyP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DummyCreatable",
+      "printedName": "DummyCreatable",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "dummy",
+          "printedName": "dummy()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_0"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9ZippyJSON14DummyCreatableP5dummyxyFZ",
+          "mangledName": "$s9ZippyJSON14DummyCreatableP5dummyxyFZ",
+          "moduleName": "ZippyJSON",
+          "genericSig": "<τ_0_0 where τ_0_0 : ZippyJSON.DummyCreatable>",
+          "sugared_genericSig": "<Self where Self : ZippyJSON.DummyCreatable>",
+          "static": true,
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:9ZippyJSON14DummyCreatableP",
+      "mangledName": "$s9ZippyJSON14DummyCreatableP",
+      "moduleName": "ZippyJSON"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Dictionary",
+      "printedName": "Dictionary",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "elementType",
+          "printedName": "elementType",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ExistentialMetatype",
+              "printedName": "Swift.Decodable.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Decodable",
+                  "printedName": "Swift.Decodable",
+                  "usr": "s:Se"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:SD9ZippyJSONSSRszSeR_rlE11elementTypeSe_pXpvpZ",
+          "mangledName": "$sSD9ZippyJSONSSRszSeR_rlE11elementTypeSe_pXpvpZ",
+          "moduleName": "ZippyJSON",
+          "static": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ExistentialMetatype",
+                  "printedName": "Swift.Decodable.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Decodable",
+                      "printedName": "Swift.Decodable",
+                      "usr": "s:Se"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:SD9ZippyJSONSSRszSeR_rlE11elementTypeSe_pXpvgZ",
+              "mangledName": "$sSD9ZippyJSONSSRszSeR_rlE11elementTypeSe_pXpvgZ",
+              "moduleName": "ZippyJSON",
+              "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == Swift.String, τ_0_1 : Swift.Decodable>",
+              "sugared_genericSig": "<Key, Value where Key == Swift.String, Value : Swift.Decodable>",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:SD",
+      "mangledName": "$sSD",
+      "moduleName": "Swift",
+      "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+      "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
+      "declAttributes": [
+        "Frozen"
+      ],
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "DictionaryWithoutKeyConversion",
+          "printedName": "DictionaryWithoutKeyConversion",
+          "usr": "s:9ZippyJSON30DictionaryWithoutKeyConversionP",
+          "mangledName": "$s9ZippyJSON30DictionaryWithoutKeyConversionP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sequence",
+          "printedName": "Sequence",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(key: τ_0_0, value: τ_0_1)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Iterator",
+                  "printedName": "Swift.Dictionary<τ_0_0, τ_0_1>.Iterator",
+                  "usr": "s:SD8IteratorV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:ST",
+          "mangledName": "$sST"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Collection",
+          "printedName": "Collection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(key: τ_0_0, value: τ_0_1)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Index",
+                  "printedName": "Swift.Dictionary<τ_0_0, τ_0_1>.Index",
+                  "usr": "s:SD5IndexV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Iterator",
+                  "printedName": "Swift.Dictionary<τ_0_0, τ_0_1>.Iterator",
+                  "usr": "s:SD8IteratorV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Slice",
+                  "printedName": "Swift.Slice<[τ_0_0 : τ_0_1]>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Dictionary",
+                      "printedName": "[τ_0_0 : τ_0_1]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GenericTypeParam",
+                          "printedName": "τ_0_0"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GenericTypeParam",
+                          "printedName": "τ_0_1"
+                        }
+                      ],
+                      "usr": "s:SD"
+                    }
+                  ],
+                  "usr": "s:s5SliceV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DefaultIndices",
+                  "printedName": "Swift.DefaultIndices<[τ_0_0 : τ_0_1]>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Dictionary",
+                      "printedName": "[τ_0_0 : τ_0_1]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GenericTypeParam",
+                          "printedName": "τ_0_0"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GenericTypeParam",
+                          "printedName": "τ_0_1"
+                        }
+                      ],
+                      "usr": "s:SD"
+                    }
+                  ],
+                  "usr": "s:SI"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sl",
+          "mangledName": "$sSl"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByDictionaryLiteral",
+          "printedName": "ExpressibleByDictionaryLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Key",
+              "printedName": "Key",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Value",
+              "printedName": "Value",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_1"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s30ExpressibleByDictionaryLiteralP",
+          "mangledName": "$ss30ExpressibleByDictionaryLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_HasCustomAnyHashableRepresentation",
+          "printedName": "_HasCustomAnyHashableRepresentation",
+          "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+          "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomReflectable",
+          "printedName": "CustomReflectable",
+          "usr": "s:s17CustomReflectableP",
+          "mangledName": "$ss17CustomReflectableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ObjectiveCBridgeable",
+          "printedName": "_ObjectiveCBridgeable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_ObjectiveCType",
+              "printedName": "_ObjectiveCType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSDictionary",
+                  "printedName": "Foundation.NSDictionary",
+                  "usr": "c:objc(cs)NSDictionary"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s21_ObjectiveCBridgeableP",
+          "mangledName": "$ss21_ObjectiveCBridgeableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Array",
+      "printedName": "Array",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "dummy",
+          "printedName": "dummy()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[τ_0_0]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:Sa9ZippyJSONSeRzlE5dummySayxGyFZ",
+          "mangledName": "$sSa9ZippyJSONSeRzlE5dummySayxGyFZ",
+          "moduleName": "ZippyJSON",
+          "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+          "sugared_genericSig": "<Element where Element : Swift.Decodable>",
+          "static": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:Sa",
+      "mangledName": "$sSa",
+      "moduleName": "Swift",
+      "genericSig": "<τ_0_0>",
+      "sugared_genericSig": "<Element>",
+      "declAttributes": [
+        "Frozen"
+      ],
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "_DestructorSafeContainer",
+          "printedName": "_DestructorSafeContainer",
+          "usr": "s:s24_DestructorSafeContainerP",
+          "mangledName": "$ss24_DestructorSafeContainerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "DummyCreatable",
+          "printedName": "DummyCreatable",
+          "usr": "s:9ZippyJSON14DummyCreatableP",
+          "mangledName": "$s9ZippyJSON14DummyCreatableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ArrayProtocol",
+          "printedName": "_ArrayProtocol",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_Buffer",
+              "printedName": "_Buffer",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "_ArrayBuffer",
+                  "printedName": "Swift._ArrayBuffer<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:s12_ArrayBufferV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s14_ArrayProtocolP",
+          "mangledName": "$ss14_ArrayProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RandomAccessCollection",
+          "printedName": "RandomAccessCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ArraySlice",
+                  "printedName": "Swift.ArraySlice<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:s10ArraySliceV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Range",
+                  "printedName": "Swift.Range<Swift.Int>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sn"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sk",
+          "mangledName": "$sSk"
+        },
+        {
+          "kind": "Conformance",
+          "name": "MutableCollection",
+          "printedName": "MutableCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ArraySlice",
+                  "printedName": "Swift.ArraySlice<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:s10ArraySliceV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SM",
+          "mangledName": "$sSM"
+        },
+        {
+          "kind": "Conformance",
+          "name": "BidirectionalCollection",
+          "printedName": "BidirectionalCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ArraySlice",
+                  "printedName": "Swift.ArraySlice<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:s10ArraySliceV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Range",
+                  "printedName": "Swift.Range<Swift.Int>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sn"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SK",
+          "mangledName": "$sSK"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Collection",
+          "printedName": "Collection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "IndexingIterator",
+                  "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[τ_0_0]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GenericTypeParam",
+                          "printedName": "τ_0_0"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "usr": "s:s16IndexingIteratorV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ArraySlice",
+                  "printedName": "Swift.ArraySlice<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:s10ArraySliceV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Range",
+                  "printedName": "Swift.Range<Swift.Int>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sn"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sl",
+          "mangledName": "$sSl"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sequence",
+          "printedName": "Sequence",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "IndexingIterator",
+                  "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[τ_0_0]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GenericTypeParam",
+                          "printedName": "τ_0_0"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "usr": "s:s16IndexingIteratorV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:ST",
+          "mangledName": "$sST"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByArrayLiteral",
+          "printedName": "ExpressibleByArrayLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ArrayLiteralElement",
+              "printedName": "ArrayLiteralElement",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s25ExpressibleByArrayLiteralP",
+          "mangledName": "$ss25ExpressibleByArrayLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RangeReplaceableCollection",
+          "printedName": "RangeReplaceableCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ArraySlice",
+                  "printedName": "Swift.ArraySlice<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:s10ArraySliceV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sm",
+          "mangledName": "$sSm"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomReflectable",
+          "printedName": "CustomReflectable",
+          "usr": "s:s17CustomReflectableP",
+          "mangledName": "$ss17CustomReflectableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_HasCustomAnyHashableRepresentation",
+          "printedName": "_HasCustomAnyHashableRepresentation",
+          "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+          "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_HasContiguousBytes",
+          "printedName": "_HasContiguousBytes",
+          "usr": "s:s19_HasContiguousBytesP",
+          "mangledName": "$ss19_HasContiguousBytesP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "EncodableWithConfiguration",
+          "printedName": "EncodableWithConfiguration",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "EncodingConfiguration",
+              "printedName": "EncodingConfiguration",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DependentMember",
+                  "printedName": "τ_0_0.EncodingConfiguration"
+                }
+              ]
+            }
+          ],
+          "usr": "s:10Foundation26EncodableWithConfigurationP",
+          "mangledName": "$s10Foundation26EncodableWithConfigurationP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "DecodableWithConfiguration",
+          "printedName": "DecodableWithConfiguration",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "DecodingConfiguration",
+              "printedName": "DecodingConfiguration",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DependentMember",
+                  "printedName": "τ_0_0.DecodingConfiguration"
+                }
+              ]
+            }
+          ],
+          "usr": "s:10Foundation26DecodableWithConfigurationP",
+          "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "DataProtocol",
+          "printedName": "DataProtocol",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Regions",
+              "printedName": "Regions",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CollectionOfOne",
+                  "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[Swift.UInt8]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "UInt8",
+                          "printedName": "Swift.UInt8",
+                          "usr": "s:s5UInt8V"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "usr": "s:s15CollectionOfOneV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:10Foundation12DataProtocolP",
+          "mangledName": "$s10Foundation12DataProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "MutableDataProtocol",
+          "printedName": "MutableDataProtocol",
+          "usr": "s:10Foundation19MutableDataProtocolP",
+          "mangledName": "$s10Foundation19MutableDataProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ObjectiveCBridgeable",
+          "printedName": "_ObjectiveCBridgeable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_ObjectiveCType",
+              "printedName": "_ObjectiveCType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSArray",
+                  "printedName": "Foundation.NSArray",
+                  "usr": "c:objc(cs)NSArray"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s21_ObjectiveCBridgeableP",
+          "mangledName": "$ss21_ObjectiveCBridgeableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ContiguousBytes",
+          "printedName": "ContiguousBytes",
+          "usr": "s:10Foundation15ContiguousBytesP",
+          "mangledName": "$s10Foundation15ContiguousBytesP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContiguousArray",
+      "printedName": "ContiguousArray",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "dummy",
+          "printedName": "dummy()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContiguousArray",
+              "printedName": "Swift.ContiguousArray<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:s15ContiguousArrayV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:s15ContiguousArrayV9ZippyJSONSeRzlE5dummyAByxGyFZ",
+          "mangledName": "$ss15ContiguousArrayV9ZippyJSONSeRzlE5dummyAByxGyFZ",
+          "moduleName": "ZippyJSON",
+          "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+          "sugared_genericSig": "<Element where Element : Swift.Decodable>",
+          "static": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:s15ContiguousArrayV",
+      "mangledName": "$ss15ContiguousArrayV",
+      "moduleName": "Swift",
+      "genericSig": "<τ_0_0>",
+      "sugared_genericSig": "<Element>",
+      "declAttributes": [
+        "Frozen"
+      ],
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "_DestructorSafeContainer",
+          "printedName": "_DestructorSafeContainer",
+          "usr": "s:s24_DestructorSafeContainerP",
+          "mangledName": "$ss24_DestructorSafeContainerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "DummyCreatable",
+          "printedName": "DummyCreatable",
+          "usr": "s:9ZippyJSON14DummyCreatableP",
+          "mangledName": "$s9ZippyJSON14DummyCreatableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ArrayProtocol",
+          "printedName": "_ArrayProtocol",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_Buffer",
+              "printedName": "_Buffer",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "_ContiguousArrayBuffer",
+                  "printedName": "Swift._ContiguousArrayBuffer<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:s22_ContiguousArrayBufferV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s14_ArrayProtocolP",
+          "mangledName": "$ss14_ArrayProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RandomAccessCollection",
+          "printedName": "RandomAccessCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ArraySlice",
+                  "printedName": "Swift.ArraySlice<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:s10ArraySliceV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Range",
+                  "printedName": "Swift.Range<Swift.Int>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sn"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sk",
+          "mangledName": "$sSk"
+        },
+        {
+          "kind": "Conformance",
+          "name": "MutableCollection",
+          "printedName": "MutableCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ArraySlice",
+                  "printedName": "Swift.ArraySlice<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:s10ArraySliceV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SM",
+          "mangledName": "$sSM"
+        },
+        {
+          "kind": "Conformance",
+          "name": "BidirectionalCollection",
+          "printedName": "BidirectionalCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ArraySlice",
+                  "printedName": "Swift.ArraySlice<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:s10ArraySliceV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Range",
+                  "printedName": "Swift.Range<Swift.Int>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sn"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SK",
+          "mangledName": "$sSK"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Collection",
+          "printedName": "Collection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "IndexingIterator",
+                  "printedName": "Swift.IndexingIterator<Swift.ContiguousArray<τ_0_0>>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContiguousArray",
+                      "printedName": "Swift.ContiguousArray<τ_0_0>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GenericTypeParam",
+                          "printedName": "τ_0_0"
+                        }
+                      ],
+                      "usr": "s:s15ContiguousArrayV"
+                    }
+                  ],
+                  "usr": "s:s16IndexingIteratorV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ArraySlice",
+                  "printedName": "Swift.ArraySlice<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:s10ArraySliceV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Range",
+                  "printedName": "Swift.Range<Swift.Int>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sn"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sl",
+          "mangledName": "$sSl"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sequence",
+          "printedName": "Sequence",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "IndexingIterator",
+                  "printedName": "Swift.IndexingIterator<Swift.ContiguousArray<τ_0_0>>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContiguousArray",
+                      "printedName": "Swift.ContiguousArray<τ_0_0>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GenericTypeParam",
+                          "printedName": "τ_0_0"
+                        }
+                      ],
+                      "usr": "s:s15ContiguousArrayV"
+                    }
+                  ],
+                  "usr": "s:s16IndexingIteratorV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:ST",
+          "mangledName": "$sST"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByArrayLiteral",
+          "printedName": "ExpressibleByArrayLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ArrayLiteralElement",
+              "printedName": "ArrayLiteralElement",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s25ExpressibleByArrayLiteralP",
+          "mangledName": "$ss25ExpressibleByArrayLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RangeReplaceableCollection",
+          "printedName": "RangeReplaceableCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ArraySlice",
+                  "printedName": "Swift.ArraySlice<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:s10ArraySliceV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sm",
+          "mangledName": "$sSm"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomReflectable",
+          "printedName": "CustomReflectable",
+          "usr": "s:s17CustomReflectableP",
+          "mangledName": "$ss17CustomReflectableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_HasContiguousBytes",
+          "printedName": "_HasContiguousBytes",
+          "usr": "s:s19_HasContiguousBytesP",
+          "mangledName": "$ss19_HasContiguousBytesP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "DataProtocol",
+          "printedName": "DataProtocol",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Regions",
+              "printedName": "Regions",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CollectionOfOne",
+                  "printedName": "Swift.CollectionOfOne<Swift.ContiguousArray<Swift.UInt8>>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContiguousArray",
+                      "printedName": "Swift.ContiguousArray<Swift.UInt8>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "UInt8",
+                          "printedName": "Swift.UInt8",
+                          "usr": "s:s5UInt8V"
+                        }
+                      ],
+                      "usr": "s:s15ContiguousArrayV"
+                    }
+                  ],
+                  "usr": "s:s15CollectionOfOneV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:10Foundation12DataProtocolP",
+          "mangledName": "$s10Foundation12DataProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "MutableDataProtocol",
+          "printedName": "MutableDataProtocol",
+          "usr": "s:10Foundation19MutableDataProtocolP",
+          "mangledName": "$s10Foundation19MutableDataProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ContiguousBytes",
+          "printedName": "ContiguousBytes",
+          "usr": "s:10Foundation15ContiguousBytesP",
+          "mangledName": "$s10Foundation15ContiguousBytesP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

@@ -1,0 +1,4 @@
+module ZippyJSON {
+header "ZippyJSON-Swift.h"
+export *
+}

@@ -1,0 +1,50 @@
+{
+  "identifier" : "587411A7",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "25.99",
+      "familyShareable" : false,
+      "internalID" : "1616550445",
+      "localizations" : [
+        {
+          "description" : "To verify tenant ability to pay rent",
+          "displayName" : "Financial verification",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "APTRT.Reny.financialCheck",
+      "referenceName" : "Financial verification",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "99.99",
+      "familyShareable" : false,
+      "internalID" : "1646169026",
+      "localizations" : [
+        {
+          "description" : "To visit a listing on behalf of the tenant",
+          "displayName" : "visitonBehalf",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "APTRT.Reny.visit",
+      "referenceName" : "Visit on tenant's behalf",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "1597225451",
+    "_developerTeamID" : "3RF2T64DCN",
+    "_lastSynchronizedDate" : 708475866.90685594
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}

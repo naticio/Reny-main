@@ -1,0 +1,4 @@
+module GoogleUtilities_SwizzlerTestHelpers {
+umbrella "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/SwizzlerTestHelpers/Public"
+export *
+}

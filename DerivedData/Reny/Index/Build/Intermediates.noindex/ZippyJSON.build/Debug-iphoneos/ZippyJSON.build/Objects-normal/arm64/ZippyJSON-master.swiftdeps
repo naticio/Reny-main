@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "36c577583e5fc098a25da8f158e6d828cf56d3ce530b03e460cfc690b3f226b0"
+build_start_time: [1659311122, 936819076]
+build_end_time: [1659311123, 985373973]
+inputs:
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/ZippyJSON/Sources/ZippyJSON/ZippyJSONDecoder.swift"
+  : [1656543298, 174177169]

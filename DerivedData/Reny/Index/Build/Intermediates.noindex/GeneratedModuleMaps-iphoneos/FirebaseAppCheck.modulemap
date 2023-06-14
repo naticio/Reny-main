@@ -1,0 +1,4 @@
+module FirebaseAppCheck {
+umbrella header "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseAppCheck/Sources/Public/FirebaseAppCheck/FirebaseAppCheck.h"
+export *
+}

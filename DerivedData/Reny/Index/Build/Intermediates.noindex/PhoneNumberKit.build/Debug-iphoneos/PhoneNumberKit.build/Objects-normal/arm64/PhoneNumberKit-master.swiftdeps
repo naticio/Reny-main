@@ -1,0 +1,41 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "3ee6ac2b7582d8dc99624d881706ebdb462c13b9c497db7d96373b8c9368a492"
+build_start_time: [1659311122, 185559034]
+build_end_time: [1659311130, 70601940]
+inputs:
+  ? "/Users/Nat-Serrano/Desktop/Reny/DerivedData/Reny/Index/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphoneos/PhoneNumberKit.build/DerivedSources/resource_bundle_accessor.swift"
+  : [1659311112, 788732767]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/Bundle+Resources.swift"
+  : [1658438167, 916723489]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/Constants.swift"
+  : [1658438167, 916953086]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/Formatter.swift"
+  : [1658438167, 917180061]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/MetadataManager.swift"
+  : [1658438167, 917698383]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/MetadataParsing.swift"
+  : [1658438167, 917922496]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/MetadataTypes.swift"
+  : [1658438167, 918099164]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/NSRegularExpression+Swift.swift"
+  : [1658438167, 918298244]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/ParseManager.swift"
+  : [1658438167, 918537616]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PartialFormatter.swift"
+  : [1658438167, 918829917]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumber+Codable.swift"
+  : [1658438167, 919518709]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumber.swift"
+  : [1658438167, 920157909]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumberFormatter.swift"
+  : [1658438167, 920435190]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumberKit.swift"
+  : [1658438167, 921067476]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumberParser.swift"
+  : [1658438167, 921393394]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/RegexManager.swift"
+  : [1658438167, 921808719]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/UI/CountryCodePickerViewController.swift"
+  : [1658438167, 928435325]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/UI/PhoneNumberTextField.swift"
+  : [1658438167, 929317474]

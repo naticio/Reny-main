@@ -1,0 +1,4 @@
+module IkigaJSON {
+header "IkigaJSON-Swift.h"
+export *
+}

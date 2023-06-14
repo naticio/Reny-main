@@ -1,0 +1,31 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "d6a8f93a47da3b0c5157abca40250d4fa7d5e2deec1910eca1903c7084a1248c"
+build_start_time: [1659311132, 587223052]
+build_end_time: [1659311134, 893741130]
+inputs:
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/IkigaJSON/Sources/IkigaJSON/Codable/JSONDecoder.swift"
+  : [1658711439, 142124176]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/IkigaJSON/Sources/IkigaJSON/Codable/JSONEncoder.swift"
+  : [1658711439, 143148422]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/IkigaJSON/Sources/IkigaJSON/Codable/NilValueCodingStrategy.swift"
+  : [1658711439, 143811941]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/IkigaJSON/Sources/IkigaJSON/Core/Bounds.swift"
+  : [1658711439, 144246101]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/IkigaJSON/Sources/IkigaJSON/Core/JSONDescription+Constants.swift"
+  : [1658711439, 144677639]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/IkigaJSON/Sources/IkigaJSON/Core/JSONDescription.swift"
+  : [1658711439, 145194292]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/IkigaJSON/Sources/IkigaJSON/Core/Pointer+Helpers.swift"
+  : [1658711439, 145377635]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/IkigaJSON/Sources/IkigaJSON/Errors.swift"
+  : [1658711439, 145524978]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/IkigaJSON/Sources/IkigaJSON/Parser/JSONParser+Parsing.swift"
+  : [1658711439, 145761489]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/IkigaJSON/Sources/IkigaJSON/Parser/JSONParser.swift"
+  : [1658711439, 145912647]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/IkigaJSON/Sources/IkigaJSON/Types/JSONArray.swift"
+  : [1658711439, 146125793]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/IkigaJSON/Sources/IkigaJSON/Types/JSONObject.swift"
+  : [1658711439, 146313428]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/IkigaJSON/Sources/IkigaJSON/Types/JSONValue.swift"
+  : [1658711439, 146787405]

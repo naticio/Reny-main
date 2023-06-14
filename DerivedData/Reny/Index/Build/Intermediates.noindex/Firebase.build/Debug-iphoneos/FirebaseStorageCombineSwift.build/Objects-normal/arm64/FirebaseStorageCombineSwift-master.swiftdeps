@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "cbc58d8847ab8596fe655f2c814b316c953f00854c6feb36a77bc225e306883b"
+build_start_time: [1659311124, 649914026]
+build_end_time: [1659311125, 24945020]
+inputs:
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseCombineSwift/Sources/Storage/Storage+Combine.swift"
+  : [1659290204, 253220796]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseCombineSwift/Sources/Storage/StorageReference+Combine.swift"
+  : [1659290204, 254047393]

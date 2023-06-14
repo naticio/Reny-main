@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "a8e43995507d405913ffa0e054926e6df1a73a43b0c6d95789c1a8cf45b5befa"
+build_start_time: [1659311131, 459558010]
+build_end_time: [1659311131, 657362937]
+inputs:
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOEmbedded/Embedded.swift"
+  : [1658711439, 672397375]

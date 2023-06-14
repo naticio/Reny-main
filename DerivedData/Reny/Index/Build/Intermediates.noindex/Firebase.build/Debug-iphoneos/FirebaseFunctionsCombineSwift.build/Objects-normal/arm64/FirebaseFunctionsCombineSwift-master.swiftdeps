@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "798f3fcbd0385727dcc65e251ef949ce8d9d9c45b86b91ab2fcefc295cba8f30"
+build_start_time: [1659311128, 472100973]
+build_end_time: [1659311128, 844295978]
+inputs:
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseCombineSwift/Sources/Functions/Functions+Combine.swift"
+  : [1659290204, 252451419]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseCombineSwift/Sources/Functions/HTTPSCallable+Combine.swift"
+  : [1659290204, 252831220]

@@ -1,0 +1,4 @@
+module gRPC_Core {
+umbrella "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/grpc-ios/native_src/spm-core-include"
+export *
+}

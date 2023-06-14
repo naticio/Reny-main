@@ -1,0 +1,14 @@
+Target dependency graph (8 targets)
+Plaid in Pods, no dependencies
+Pods-Reny in Pods, depends on:
+Plaid in Pods (explicit)
+Plaid in Pods, no dependencies
+Pods-Reny in Pods, depends on:
+Plaid in Pods (explicit)
+Plaid in Pods, no dependencies
+Pods-Reny in Pods, depends on:
+Plaid in Pods (explicit)
+Reny in Reny, depends on:
+Pods-Reny in Pods (implicit dependency via file 'Pods_Reny.framework' in build phase 'Link Binary')
+Reny in Reny, depends on:
+Pods-Reny in Pods (implicit dependency via file 'Pods_Reny.framework' in build phase 'Link Binary')

@@ -1,0 +1,191 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctionsCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "Combine",
+      "printedName": "Combine",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctionsCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseFunctions",
+      "printedName": "FirebaseFunctions",
+      "declKind": "Import",
+      "moduleName": "FirebaseFunctionsCombineSwift"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HTTPSCallable",
+      "printedName": "HTTPSCallable",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "call",
+          "printedName": "call()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseFunctions.HTTPSCallableResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPSCallableResult",
+                  "printedName": "FirebaseFunctions.HTTPSCallableResult",
+                  "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallableResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions13HTTPSCallableC0aB12CombineSwiftE4call0D06FutureCyAA0C6ResultCs5Error_pGyF",
+          "mangledName": "$s17FirebaseFunctions13HTTPSCallableC0aB12CombineSwiftE4call0D06FutureCyAA0C6ResultCs5Error_pGyF",
+          "moduleName": "FirebaseFunctionsCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "call",
+          "printedName": "call(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseFunctions.HTTPSCallableResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPSCallableResult",
+                  "printedName": "FirebaseFunctions.HTTPSCallableResult",
+                  "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallableResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Any?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:17FirebaseFunctions13HTTPSCallableC0aB12CombineSwiftE4cally0D06FutureCyAA0C6ResultCs5Error_pGypSgF",
+          "mangledName": "$s17FirebaseFunctions13HTTPSCallableC0aB12CombineSwiftE4cally0D06FutureCyAA0C6ResultCs5Error_pGypSgF",
+          "moduleName": "FirebaseFunctionsCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@FirebaseFunctions@objc(cs)FIRHTTPSCallable",
+      "mangledName": "$s17FirebaseFunctions13HTTPSCallableC",
+      "moduleName": "FirebaseFunctions",
+      "isOpen": true,
+      "objc_name": "FIRHTTPSCallable",
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "isExternal": true,
+      "hasMissingDesignatedInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

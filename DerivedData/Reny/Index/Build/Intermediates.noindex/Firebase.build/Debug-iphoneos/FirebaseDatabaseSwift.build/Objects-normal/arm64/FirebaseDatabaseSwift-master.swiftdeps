@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "8f634f9542909f97f90ef255ba46fb15828936fe09fd251df391c54bac485751"
+build_start_time: [1659311124, 144442081]
+build_end_time: [1659311124, 917786121]
+inputs:
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseDatabaseSwift/Sources/Codable/DataSnapshot+ReadDecodable.swift"
+  : [1659290204, 503618717]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseDatabaseSwift/Sources/Codable/DatabaseReference+WriteEncodable.swift"
+  : [1659290204, 504077672]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseDatabaseSwift/Sources/Codable/EncoderDecoder.swift"
+  : [1659290204, 504426956]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseDatabaseSwift/Sources/Codable/ServerTimestamp.swift"
+  : [1659290204, 504825353]

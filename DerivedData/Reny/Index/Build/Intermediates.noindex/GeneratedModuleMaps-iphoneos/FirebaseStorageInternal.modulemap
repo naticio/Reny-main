@@ -1,0 +1,4 @@
+module FirebaseStorageInternal {
+umbrella "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorageInternal/Sources/Public"
+export *
+}

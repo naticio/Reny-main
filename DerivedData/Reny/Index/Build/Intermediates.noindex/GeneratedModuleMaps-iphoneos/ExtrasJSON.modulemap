@@ -1,0 +1,4 @@
+module ExtrasJSON {
+header "ExtrasJSON-Swift.h"
+export *
+}

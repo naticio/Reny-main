@@ -1,0 +1,4 @@
+module CNIOSHA1 {
+umbrella header "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+export *
+}

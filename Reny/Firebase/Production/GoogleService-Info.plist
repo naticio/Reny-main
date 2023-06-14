@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>859736870484-7t9bh5q88ne1vblju8hii3drok8vh5su.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.859736870484-7t9bh5q88ne1vblju8hii3drok8vh5su</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDEhom8vIf3ff4nIt6v_o9W2GWMgkff0Dg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>859736870484</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>APTRT.Reny</string>
+	<key>PROJECT_ID</key>
+	<string>reny-9661f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>reny-9661f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:859736870484:ios:1e0827d7ca6939031027c1</string>
+</dict>
+</plist>

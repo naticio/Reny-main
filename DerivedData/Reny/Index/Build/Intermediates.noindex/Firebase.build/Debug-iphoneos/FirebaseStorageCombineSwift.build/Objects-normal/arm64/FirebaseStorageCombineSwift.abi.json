@@ -1,0 +1,605 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FirebaseStorageCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "Combine",
+      "printedName": "Combine",
+      "declKind": "Import",
+      "moduleName": "FirebaseStorageCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseStorage",
+      "printedName": "FirebaseStorage",
+      "declKind": "Import",
+      "moduleName": "FirebaseStorageCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseStorageInternal",
+      "printedName": "FirebaseStorageInternal",
+      "declKind": "Import",
+      "moduleName": "FirebaseStorageCombineSwift"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "StorageReference",
+      "printedName": "StorageReference",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "putData",
+          "printedName": "putData(_:metadata:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseStorage.StorageMetadata, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "StorageMetadata",
+                  "printedName": "FirebaseStorage.StorageMetadata",
+                  "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageMetadata"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Data",
+              "printedName": "Foundation.Data",
+              "usr": "s:10Foundation4DataV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseStorage.StorageMetadata?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "StorageMetadata",
+                  "printedName": "FirebaseStorage.StorageMetadata",
+                  "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageMetadata"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE7putData_8metadata0D06FutureCyAA0B8MetadataCs5Error_pG10Foundation0G0V_AKSgtF",
+          "mangledName": "$s15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE7putData_8metadata0D06FutureCyAA0B8MetadataCs5Error_pG10Foundation0G0V_AKSgtF",
+          "moduleName": "FirebaseStorageCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "putFile",
+          "printedName": "putFile(from:metadata:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseStorage.StorageMetadata, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "StorageMetadata",
+                  "printedName": "FirebaseStorage.StorageMetadata",
+                  "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageMetadata"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "URL",
+              "printedName": "Foundation.URL",
+              "usr": "s:10Foundation3URLV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseStorage.StorageMetadata?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "StorageMetadata",
+                  "printedName": "FirebaseStorage.StorageMetadata",
+                  "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageMetadata"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE7putFile4from8metadata0D06FutureCyAA0B8MetadataCs5Error_pG10Foundation3URLV_ALSgtF",
+          "mangledName": "$s15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE7putFile4from8metadata0D06FutureCyAA0B8MetadataCs5Error_pG10Foundation3URLV_ALSgtF",
+          "moduleName": "FirebaseStorageCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getData",
+          "printedName": "getData(maxSize:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<Foundation.Data, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Data",
+                  "printedName": "Foundation.Data",
+                  "usr": "s:10Foundation4DataV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int64",
+              "printedName": "Swift.Int64",
+              "usr": "s:s5Int64V"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE7getData7maxSize0D06FutureCy10Foundation0G0Vs5Error_pGs5Int64V_tF",
+          "mangledName": "$s15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE7getData7maxSize0D06FutureCy10Foundation0G0Vs5Error_pGs5Int64V_tF",
+          "moduleName": "FirebaseStorageCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "write",
+          "printedName": "write(toFile:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<Foundation.URL, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "URL",
+                  "printedName": "Foundation.URL",
+                  "usr": "s:10Foundation3URLV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "URL",
+              "printedName": "Foundation.URL",
+              "usr": "s:10Foundation3URLV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE5write6toFile0D06FutureCy10Foundation3URLVs5Error_pGAL_tF",
+          "mangledName": "$s15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE5write6toFile0D06FutureCy10Foundation3URLVs5Error_pGAL_tF",
+          "moduleName": "FirebaseStorageCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "downloadURL",
+          "printedName": "downloadURL()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<Foundation.URL, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "URL",
+                  "printedName": "Foundation.URL",
+                  "usr": "s:10Foundation3URLV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE11downloadURL0D06FutureCy10Foundation0G0Vs5Error_pGyF",
+          "mangledName": "$s15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE11downloadURL0D06FutureCy10Foundation0G0Vs5Error_pGyF",
+          "moduleName": "FirebaseStorageCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "listAll",
+          "printedName": "listAll()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseStorage.StorageListResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "StorageListResult",
+                  "printedName": "FirebaseStorage.StorageListResult",
+                  "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageListResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE7listAll0D06FutureCyAA0B10ListResultCs5Error_pGyF",
+          "mangledName": "$s15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE7listAll0D06FutureCyAA0B10ListResultCs5Error_pGyF",
+          "moduleName": "FirebaseStorageCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "list",
+          "printedName": "list(maxResults:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseStorage.StorageListResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "StorageListResult",
+                  "printedName": "FirebaseStorage.StorageListResult",
+                  "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageListResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int64",
+              "printedName": "Swift.Int64",
+              "usr": "s:s5Int64V"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE4list10maxResults0D06FutureCyAA0B10ListResultCs5Error_pGs5Int64V_tF",
+          "mangledName": "$s15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE4list10maxResults0D06FutureCyAA0B10ListResultCs5Error_pGs5Int64V_tF",
+          "moduleName": "FirebaseStorageCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "list",
+          "printedName": "list(maxResults:pageToken:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseStorage.StorageListResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "StorageListResult",
+                  "printedName": "FirebaseStorage.StorageListResult",
+                  "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageListResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int64",
+              "printedName": "Swift.Int64",
+              "usr": "s:s5Int64V"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE4list10maxResults9pageToken0D06FutureCyAA0B10ListResultCs5Error_pGs5Int64V_SStF",
+          "mangledName": "$s15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE4list10maxResults9pageToken0D06FutureCyAA0B10ListResultCs5Error_pGs5Int64V_SStF",
+          "moduleName": "FirebaseStorageCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getMetadata",
+          "printedName": "getMetadata()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseStorage.StorageMetadata, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "StorageMetadata",
+                  "printedName": "FirebaseStorage.StorageMetadata",
+                  "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageMetadata"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE11getMetadata0D06FutureCyAA0bG0Cs5Error_pGyF",
+          "mangledName": "$s15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE11getMetadata0D06FutureCyAA0bG0Cs5Error_pGyF",
+          "moduleName": "FirebaseStorageCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "updateMetadata",
+          "printedName": "updateMetadata(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseStorage.StorageMetadata, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "StorageMetadata",
+                  "printedName": "FirebaseStorage.StorageMetadata",
+                  "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageMetadata"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "StorageMetadata",
+              "printedName": "FirebaseStorage.StorageMetadata",
+              "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageMetadata"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE14updateMetadatay0D06FutureCyAA0bG0Cs5Error_pGAJF",
+          "mangledName": "$s15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE14updateMetadatay0D06FutureCyAA0bG0Cs5Error_pGAJF",
+          "moduleName": "FirebaseStorageCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "delete",
+          "printedName": "delete()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<Swift.Bool, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE6delete0D06FutureCySbs5Error_pGyF",
+          "mangledName": "$s15FirebaseStorage0B9ReferenceC0aB12CombineSwiftE6delete0D06FutureCySbs5Error_pGyF",
+          "moduleName": "FirebaseStorageCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@FirebaseStorage@objc(cs)FIRStorageReference",
+      "mangledName": "$s15FirebaseStorage0B9ReferenceC",
+      "moduleName": "FirebaseStorage",
+      "isOpen": true,
+      "objc_name": "FIRStorageReference",
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "isExternal": true,
+      "hasMissingDesignatedInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

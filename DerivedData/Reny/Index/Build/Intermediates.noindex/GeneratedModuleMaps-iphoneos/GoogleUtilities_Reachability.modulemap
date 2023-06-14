@@ -1,0 +1,4 @@
+module GoogleUtilities_Reachability {
+umbrella "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/Reachability/Public"
+export *
+}

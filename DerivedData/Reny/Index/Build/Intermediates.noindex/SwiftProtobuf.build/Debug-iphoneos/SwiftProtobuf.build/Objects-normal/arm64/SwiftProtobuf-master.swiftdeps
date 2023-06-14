@@ -1,0 +1,173 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "3ee6ac2b7582d8dc99624d881706ebdb462c13b9c497db7d96373b8c9368a492"
+build_start_time: [1659311138, 270072937]
+build_end_time: [1659311139, 397753000]
+inputs:
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/AnyMessageStorage.swift"
+  : [1653962887, 837602138]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/AnyUnpackError.swift"
+  : [1653962887, 837862491]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryDecoder.swift"
+  : [1653962887, 838277578]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryDecodingError.swift"
+  : [1653962887, 838475704]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryDecodingOptions.swift"
+  : [1653962887, 838638305]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryDelimited.swift"
+  : [1653962887, 838817119]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryEncoder.swift"
+  : [1653962887, 838984966]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryEncodingError.swift"
+  : [1653962887, 839150905]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryEncodingSizeVisitor.swift"
+  : [1653962887, 839709758]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryEncodingVisitor.swift"
+  : [1653962887, 839994430]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/CustomJSONCodable.swift"
+  : [1653962887, 840839862]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Data+Extensions.swift"
+  : [1653962887, 841001749]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Decoder.swift"
+  : [1653962887, 841205596]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/DoubleParser.swift"
+  : [1653962887, 841416358]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Enum.swift"
+  : [1653962887, 841569185]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ExtensibleMessage.swift"
+  : [1653962887, 841729640]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ExtensionFieldValueSet.swift"
+  : [1653962887, 841890811]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ExtensionFields.swift"
+  : [1653962887, 842100620]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ExtensionMap.swift"
+  : [1653962887, 842282295]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/FieldTag.swift"
+  : [1653962887, 842432022]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/FieldTypes.swift"
+  : [1653962887, 842660903]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Any+Extensions.swift"
+  : [1653962887, 842924594]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Any+Registry.swift"
+  : [1653962887, 843101978]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Duration+Extensions.swift"
+  : [1653962887, 843291997]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_FieldMask+Extensions.swift"
+  : [1653962887, 843508958]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_ListValue+Extensions.swift"
+  : [1653962887, 843702077]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_NullValue+Extensions.swift"
+  : [1653962887, 843869924]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Struct+Extensions.swift"
+  : [1653962887, 844018459]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Timestamp+Extensions.swift"
+  : [1653962887, 844223737]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Value+Extensions.swift"
+  : [1653962887, 844809293]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Wrappers+Extensions.swift"
+  : [1653962887, 845003604]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/HashVisitor.swift"
+  : [1653962887, 845177888]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Internal.swift"
+  : [1653962887, 845364093]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONDecoder.swift"
+  : [1653962887, 845865249]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONDecodingError.swift"
+  : [1653962887, 846058607]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONDecodingOptions.swift"
+  : [1653962887, 846250534]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONEncoder.swift"
+  : [1653962887, 846483707]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONEncodingError.swift"
+  : [1653962887, 846640110]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONEncodingOptions.swift"
+  : [1653962887, 846806764]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONEncodingVisitor.swift"
+  : [1653962887, 847107410]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONMapEncodingVisitor.swift"
+  : [1653962887, 847358703]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONScanner.swift"
+  : [1653962887, 848123550]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/MathUtils.swift"
+  : [1653962887, 848343372]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+AnyAdditions.swift"
+  : [1653962887, 848533153]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+BinaryAdditions.swift"
+  : [1653962887, 848739624]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+JSONAdditions.swift"
+  : [1653962887, 848947525]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+JSONArrayAdditions.swift"
+  : [1653962887, 849086284]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+TextFormatAdditions.swift"
+  : [1653962887, 849252223]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message.swift"
+  : [1653962887, 849443435]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/MessageExtension.swift"
+  : [1653962887, 849608421]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/NameMap.swift"
+  : [1653962887, 849802494]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ProtoNameProviding.swift"
+  : [1653962887, 849954366]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ProtobufAPIVersionCheck.swift"
+  : [1653962887, 850116252]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ProtobufMap.swift"
+  : [1653962887, 850269794]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/SelectiveVisitor.swift"
+  : [1653962887, 850442409]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/SimpleExtensionMap.swift"
+  : [1653962887, 850660085]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/StringUtils.swift"
+  : [1653962887, 850869894]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatDecoder.swift"
+  : [1653962887, 851076841]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatDecodingError.swift"
+  : [1653962887, 851318597]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatDecodingOptions.swift"
+  : [1653962887, 851464033]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatEncoder.swift"
+  : [1653962887, 851609945]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatEncodingOptions.swift"
+  : [1653962887, 851769924]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatEncodingVisitor.swift"
+  : [1653962887, 851948261]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatScanner.swift"
+  : [1653962887, 852721691]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TimeUtils.swift"
+  : [1653962887, 852943181]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/UnknownStorage.swift"
+  : [1653962887, 853112220]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/UnsafeBufferPointer+Shims.swift"
+  : [1653962887, 853289127]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/UnsafeRawPointer+Shims.swift"
+  : [1653962887, 853427886]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Varint.swift"
+  : [1653962887, 853589534]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Version.swift"
+  : [1653962887, 853746414]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Visitor.swift"
+  : [1653962887, 853983879]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/WireFormat.swift"
+  : [1653962887, 854234218]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ZigZag.swift"
+  : [1653962887, 854421138]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/any.pb.swift"
+  : [1653962887, 854580402]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/api.pb.swift"
+  : [1653962887, 854843139]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/descriptor.pb.swift"
+  : [1653962887, 855844974]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/duration.pb.swift"
+  : [1653962887, 856066703]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/empty.pb.swift"
+  : [1653962887, 856240272]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/field_mask.pb.swift"
+  : [1653962887, 856446504]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/source_context.pb.swift"
+  : [1653962887, 856606006]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/struct.pb.swift"
+  : [1653962887, 856849670]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/timestamp.pb.swift"
+  : [1653962887, 857033729]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/type.pb.swift"
+  : [1653962887, 857817649]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/wrappers.pb.swift"
+  : [1653962887, 858082294]

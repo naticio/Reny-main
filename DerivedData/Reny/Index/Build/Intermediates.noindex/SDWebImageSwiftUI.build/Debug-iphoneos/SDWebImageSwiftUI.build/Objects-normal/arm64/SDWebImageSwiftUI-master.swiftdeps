@@ -1,0 +1,29 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "5069c47ecc6d45ce1d9b912dcdd8ff39392d340f332df2a64ec013cfd9c53a89"
+build_start_time: [1659311122, 770255088]
+build_end_time: [1659311130, 504311084]
+inputs:
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/AnimatedImage.swift"
+  : [1653962869, 314431667]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/Image.swift"
+  : [1653962869, 314795017]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/ImageManager.swift"
+  : [1653962869, 315172672]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/ImagePlayer.swift"
+  : [1653962869, 315565109]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/ImageViewWrapper.swift"
+  : [1653962869, 315943479]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/Indicator/ActivityIndicator.swift"
+  : [1653962869, 316463470]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/Indicator/Indicator.swift"
+  : [1653962869, 316762447]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/Indicator/ProgressIndicator.swift"
+  : [1653962869, 317044496]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/SDWebImageSwiftUI.swift"
+  : [1653962869, 317393779]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/SwiftUICompatibility.swift"
+  : [1653962869, 317708492]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/Transition/Transition.swift"
+  : [1653962869, 318101882]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/WebImage.swift"
+  : [1653962869, 318534851]

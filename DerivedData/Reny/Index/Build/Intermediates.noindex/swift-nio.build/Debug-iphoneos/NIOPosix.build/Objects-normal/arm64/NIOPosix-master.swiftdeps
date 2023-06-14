@@ -1,0 +1,93 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "0daa5df5ab206cba4ec43a369ef89f3032b4af70a3c208204d14a43da7ebf289"
+build_start_time: [1659311131, 461511135]
+build_end_time: [1659311132, 188951015]
+inputs:
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/BSDSocketAPICommon.swift"
+  : [1658711439, 680561304]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/BSDSocketAPIPosix.swift"
+  : [1658711439, 680776596]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/BSDSocketAPIWindows.swift"
+  : [1658711439, 681024074]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/BaseSocket.swift"
+  : [1658711439, 681440353]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/BaseSocketChannel+SocketOptionProvider.swift"
+  : [1658711439, 681625843]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/BaseSocketChannel.swift"
+  : [1658711439, 682073593]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/BaseStreamSocketChannel.swift"
+  : [1658711439, 682806968]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/Bootstrap.swift"
+  : [1658711439, 683200120]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/ControlMessage.swift"
+  : [1658711439, 683450222]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/DatagramVectorReadManager.swift"
+  : [1658711439, 683706998]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/FileDescriptor.swift"
+  : [1658711439, 683920860]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/GetaddrinfoResolver.swift"
+  : [1658711439, 684126853]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/HappyEyeballs.swift"
+  : [1658711439, 684404134]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/IO.swift"
+  : [1658711439, 684688806]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/IntegerBitPacking.swift"
+  : [1658711439, 684830188]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/IntegerTypes.swift"
+  : [1658711439, 684953927]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/Linux.swift"
+  : [1658711439, 685087919]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/LinuxCPUSet.swift"
+  : [1658711439, 685235977]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/LinuxUring.swift"
+  : [1658711439, 685481548]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/MultiThreadedEventLoopGroup.swift"
+  : [1658711439, 685753345]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/NIOThreadPool.swift"
+  : [1658711439, 685978412]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/NonBlockingFileIO.swift"
+  : [1658711439, 686189651]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/PendingDatagramWritesManager.swift"
+  : [1658711439, 686497926]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/PendingWritesManager.swift"
+  : [1658711439, 686755180]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/PipeChannel.swift"
+  : [1658711439, 686923980]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/PipePair.swift"
+  : [1658711439, 687069416]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/PointerHelpers.swift"
+  : [1658711439, 687184333]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/Resolver.swift"
+  : [1658711439, 687345504]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/Selectable.swift"
+  : [1658711439, 687522411]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/SelectableChannel.swift"
+  : [1658711439, 687669754]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/SelectableEventLoop.swift"
+  : [1658711439, 688005447]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/SelectorEpoll.swift"
+  : [1658711439, 688398361]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/SelectorGeneric.swift"
+  : [1658711439, 688769817]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/SelectorKqueue.swift"
+  : [1658711439, 689136505]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/SelectorUring.swift"
+  : [1658711439, 689376354]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/ServerSocket.swift"
+  : [1658711439, 689588546]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/Socket.swift"
+  : [1658711439, 689906358]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/SocketChannel.swift"
+  : [1658711439, 690146923]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/SocketProtocols.swift"
+  : [1658711439, 690357208]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/System.swift"
+  : [1658711439, 690624237]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/Thread.swift"
+  : [1658711439, 690871953]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/ThreadPosix.swift"
+  : [1658711439, 691082954]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/ThreadWindows.swift"
+  : [1658711439, 691226959]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/Utilities.swift"
+  : [1658711439, 691365718]

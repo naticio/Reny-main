@@ -1,0 +1,4 @@
+module openssl_grpc {
+umbrella "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/boringssl-SwiftPM/src/include"
+export *
+}

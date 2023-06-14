@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "10a6204c76080d2af7401ac7057f24f3548e78e17b7c4dae2ba12081f5e69fd3"
+build_start_time: [1659311122, 896411895]
+build_end_time: [1659311123, 662178993]
+inputs:
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseCombineSwift/Sources/Auth/Auth+Combine.swift"
+  : [1659290204, 244697570]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseCombineSwift/Sources/Auth/GameCenterAuthProvider+Combine.swift"
+  : [1659290204, 245457172]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseCombineSwift/Sources/Auth/MultiFactor+Combine.swift"
+  : [1659290204, 245977401]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseCombineSwift/Sources/Auth/MultiFactorResolver+Combine.swift"
+  : [1659290204, 246566295]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseCombineSwift/Sources/Auth/OAuthProvider+Combine.swift"
+  : [1659290204, 247123956]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseCombineSwift/Sources/Auth/PhoneAuthProvider+Combine.swift"
+  : [1659290204, 247722148]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/FirebaseCombineSwift/Sources/Auth/User+Combine.swift"
+  : [1659290204, 248676300]

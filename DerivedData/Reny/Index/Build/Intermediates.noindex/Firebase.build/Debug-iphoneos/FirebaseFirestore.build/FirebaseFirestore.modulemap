@@ -1,0 +1,4 @@
+module FirebaseFirestore {
+umbrella header "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/firebase-ios-sdk/Firestore/Source/Public/FirebaseFirestore/FirebaseFirestore.h"
+export *
+}

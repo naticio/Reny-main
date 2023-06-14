@@ -1,0 +1,4 @@
+module abseil {
+umbrella "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/abseil-cpp-SwiftPM"
+export *
+}

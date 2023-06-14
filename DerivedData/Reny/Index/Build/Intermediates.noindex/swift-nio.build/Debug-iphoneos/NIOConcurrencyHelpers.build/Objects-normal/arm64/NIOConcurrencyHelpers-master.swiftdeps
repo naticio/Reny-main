@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "5069c47ecc6d45ce1d9b912dcdd8ff39392d340f332df2a64ec013cfd9c53a89"
+build_start_time: [1659311122, 867194175]
+build_end_time: [1659311125, 237943172]
+inputs:
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/NIOAtomic.swift"
+  : [1658711439, 654531478]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/atomics.swift"
+  : [1658711439, 654894351]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/lock.swift"
+  : [1658711439, 655189037]

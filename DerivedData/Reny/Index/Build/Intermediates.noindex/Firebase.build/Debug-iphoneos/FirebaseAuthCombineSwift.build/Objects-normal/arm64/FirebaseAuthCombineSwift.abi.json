@@ -1,0 +1,2190 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Combine",
+      "printedName": "Combine",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseAuth",
+      "printedName": "FirebaseAuth",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "Combine",
+      "printedName": "Combine",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseAuth",
+      "printedName": "FirebaseAuth",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "Combine",
+      "printedName": "Combine",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseAuth",
+      "printedName": "FirebaseAuth",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "Combine",
+      "printedName": "Combine",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseAuth",
+      "printedName": "FirebaseAuth",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "Combine",
+      "printedName": "Combine",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseAuth",
+      "printedName": "FirebaseAuth",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "Combine",
+      "printedName": "Combine",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseAuth",
+      "printedName": "FirebaseAuth",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "Combine",
+      "printedName": "Combine",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "Import",
+      "name": "FirebaseAuth",
+      "printedName": "FirebaseAuth",
+      "declKind": "Import",
+      "moduleName": "FirebaseAuthCombineSwift"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Auth",
+      "printedName": "Auth",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "authStateDidChangePublisher",
+          "printedName": "authStateDidChangePublisher()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyPublisher",
+              "printedName": "Combine.AnyPublisher<FirebaseAuth.User?, Swift.Never>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "FirebaseAuth.User?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "User",
+                      "printedName": "FirebaseAuth.User",
+                      "usr": "c:objc(cs)FIRUser"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Never",
+                  "printedName": "Swift.Never",
+                  "usr": "s:s5NeverO"
+                }
+              ],
+              "usr": "s:7Combine12AnyPublisherV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE27authStateDidChangePublisher0D003AnyJ0VySo7FIRUserCSgs5NeverOGyF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE27authStateDidChangePublisher0D003AnyJ0VySo7FIRUserCSgs5NeverOGyF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "idTokenDidChangePublisher",
+          "printedName": "idTokenDidChangePublisher()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyPublisher",
+              "printedName": "Combine.AnyPublisher<FirebaseAuth.User?, Swift.Never>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "FirebaseAuth.User?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "User",
+                      "printedName": "FirebaseAuth.User",
+                      "usr": "c:objc(cs)FIRUser"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Never",
+                  "printedName": "Swift.Never",
+                  "usr": "s:s5NeverO"
+                }
+              ],
+              "usr": "s:7Combine12AnyPublisherV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE25idTokenDidChangePublisher0D003AnyJ0VySo7FIRUserCSgs5NeverOGyF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE25idTokenDidChangePublisher0D003AnyJ0VySo7FIRUserCSgs5NeverOGyF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "updateCurrentUser",
+          "printedName": "updateCurrentUser(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<(), Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "User",
+              "printedName": "FirebaseAuth.User",
+              "usr": "c:objc(cs)FIRUser"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE17updateCurrentUsery0D06FutureCyyts5Error_pGSo7FIRUserCF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE17updateCurrentUsery0D06FutureCyyts5Error_pGSo7FIRUserCF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "signInAnonymously",
+          "printedName": "signInAnonymously()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.AuthDataResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthDataResult",
+                  "printedName": "FirebaseAuth.AuthDataResult",
+                  "usr": "c:objc(cs)FIRAuthDataResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE17signInAnonymously0D06FutureCySo0A10DataResultCs5Error_pGyF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE17signInAnonymously0D06FutureCySo0A10DataResultCs5Error_pGyF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "createUser",
+          "printedName": "createUser(withEmail:password:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.AuthDataResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthDataResult",
+                  "printedName": "FirebaseAuth.AuthDataResult",
+                  "usr": "c:objc(cs)FIRAuthDataResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE10createUser9withEmail8password0D06FutureCySo0A10DataResultCs5Error_pGSS_SStF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE10createUser9withEmail8password0D06FutureCySo0A10DataResultCs5Error_pGSS_SStF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "signIn",
+          "printedName": "signIn(withEmail:password:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.AuthDataResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthDataResult",
+                  "printedName": "FirebaseAuth.AuthDataResult",
+                  "usr": "c:objc(cs)FIRAuthDataResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE6signIn9withEmail8password0D06FutureCySo0A10DataResultCs5Error_pGSS_SStF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE6signIn9withEmail8password0D06FutureCySo0A10DataResultCs5Error_pGSS_SStF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "signIn",
+          "printedName": "signIn(withEmail:link:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.AuthDataResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthDataResult",
+                  "printedName": "FirebaseAuth.AuthDataResult",
+                  "usr": "c:objc(cs)FIRAuthDataResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE6signIn9withEmail4link0D06FutureCySo0A10DataResultCs5Error_pGSS_SStF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE6signIn9withEmail4link0D06FutureCySo0A10DataResultCs5Error_pGSS_SStF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "Available",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sendSignInLink",
+          "printedName": "sendSignInLink(toEmail:actionCodeSettings:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<(), Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ActionCodeSettings",
+              "printedName": "FirebaseAuth.ActionCodeSettings",
+              "usr": "c:objc(cs)FIRActionCodeSettings"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE14sendSignInLink7toEmail18actionCodeSettings0D06FutureCyyts5Error_pGSS_So09FIRActionmN0CtF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE14sendSignInLink7toEmail18actionCodeSettings0D06FutureCyyts5Error_pGSS_So09FIRActionmN0CtF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "Available",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "fetchSignInMethods",
+          "printedName": "fetchSignInMethods(forEmail:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<[Swift.String], Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE18fetchSignInMethods8forEmail0D06FutureCySaySSGs5Error_pGSS_tF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE18fetchSignInMethods8forEmail0D06FutureCySaySSGs5Error_pGSS_tF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "confirmPasswordReset",
+          "printedName": "confirmPasswordReset(withCode:newPassword:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<(), Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE20confirmPasswordReset8withCode03newG00D06FutureCyyts5Error_pGSS_SStF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE20confirmPasswordReset8withCode03newG00D06FutureCyyts5Error_pGSS_SStF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "verifyPasswordResetCode",
+          "printedName": "verifyPasswordResetCode(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<Swift.String, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE23verifyPasswordResetCodey0D06FutureCySSs5Error_pGSSF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE23verifyPasswordResetCodey0D06FutureCySSs5Error_pGSSF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "checkActionCode",
+          "printedName": "checkActionCode(code:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.ActionCodeInfo, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ActionCodeInfo",
+                  "printedName": "FirebaseAuth.ActionCodeInfo",
+                  "usr": "c:objc(cs)FIRActionCodeInfo"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE15checkActionCode4code0D06FutureCySo09FIRActionH4InfoCs5Error_pGSS_tF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE15checkActionCode4code0D06FutureCySo09FIRActionH4InfoCs5Error_pGSS_tF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "applyActionCode",
+          "printedName": "applyActionCode(code:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<(), Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE15applyActionCode4code0D06FutureCyyts5Error_pGSS_tF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE15applyActionCode4code0D06FutureCyyts5Error_pGSS_tF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sendPasswordReset",
+          "printedName": "sendPasswordReset(withEmail:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<(), Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE17sendPasswordReset9withEmail0D06FutureCyyts5Error_pGSS_tF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE17sendPasswordReset9withEmail0D06FutureCyyts5Error_pGSS_tF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sendPasswordReset",
+          "printedName": "sendPasswordReset(withEmail:actionCodeSettings:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<(), Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ActionCodeSettings",
+              "printedName": "FirebaseAuth.ActionCodeSettings",
+              "usr": "c:objc(cs)FIRActionCodeSettings"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE17sendPasswordReset9withEmail18actionCodeSettings0D06FutureCyyts5Error_pGSS_So09FIRActionlM0CtF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE17sendPasswordReset9withEmail18actionCodeSettings0D06FutureCyyts5Error_pGSS_So09FIRActionlM0CtF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "signIn",
+          "printedName": "signIn(with:uiDelegate:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.AuthDataResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthDataResult",
+                  "printedName": "FirebaseAuth.AuthDataResult",
+                  "usr": "c:objc(cs)FIRAuthDataResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FederatedAuthProvider",
+              "printedName": "FirebaseAuth.FederatedAuthProvider",
+              "usr": "c:objc(pl)FIRFederatedAuthProvider"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseAuth.AuthUIDelegate?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthUIDelegate",
+                  "printedName": "FirebaseAuth.AuthUIDelegate",
+                  "usr": "c:objc(pl)FIRAuthUIDelegate"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE6signIn4with10uiDelegate0D06FutureCySo0A10DataResultCs5Error_pGSo012FIRFederatedC8Provider_p_So0A10UIDelegate_pSgtF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE6signIn4with10uiDelegate0D06FutureCySo0A10DataResultCs5Error_pGSo012FIRFederatedC8Provider_p_So0A10UIDelegate_pSgtF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "signIn",
+          "printedName": "signIn(withCustomToken:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.AuthDataResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthDataResult",
+                  "printedName": "FirebaseAuth.AuthDataResult",
+                  "usr": "c:objc(cs)FIRAuthDataResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE6signIn15withCustomToken0D06FutureCySo0A10DataResultCs5Error_pGSS_tF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE6signIn15withCustomToken0D06FutureCySo0A10DataResultCs5Error_pGSS_tF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "signIn",
+          "printedName": "signIn(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.AuthDataResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthDataResult",
+                  "printedName": "FirebaseAuth.AuthDataResult",
+                  "usr": "c:objc(cs)FIRAuthDataResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "AuthCredential",
+              "printedName": "FirebaseAuth.AuthCredential",
+              "usr": "c:objc(cs)FIRAuthCredential"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRAuthC24FirebaseAuthCombineSwiftE6signIn4with0D06FutureCySo0A10DataResultCs5Error_pGSo0A10CredentialC_tF",
+          "mangledName": "$sSo7FIRAuthC24FirebaseAuthCombineSwiftE6signIn4with0D06FutureCySo0A10DataResultCs5Error_pGSo0A10CredentialC_tF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)FIRAuth",
+      "moduleName": "FirebaseAuth",
+      "isOpen": true,
+      "objc_name": "FIRAuth",
+      "declAttributes": [
+        "ObjC",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GameCenterAuthProvider",
+      "printedName": "GameCenterAuthProvider",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "getCredential",
+          "printedName": "getCredential()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.AuthCredential, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthCredential",
+                  "printedName": "FirebaseAuth.AuthCredential",
+                  "usr": "c:objc(cs)FIRAuthCredential"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So25FIRGameCenterAuthProviderC08FirebaseC12CombineSwiftE13getCredential0F06FutureCySo07FIRAuthI0Cs5Error_pGyFZ",
+          "mangledName": "$sSo25FIRGameCenterAuthProviderC08FirebaseC12CombineSwiftE13getCredential0F06FutureCySo07FIRAuthI0Cs5Error_pGyFZ",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "static": true,
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)FIRGameCenterAuthProvider",
+      "moduleName": "FirebaseAuth",
+      "isOpen": true,
+      "objc_name": "FIRGameCenterAuthProvider",
+      "declAttributes": [
+        "ObjC",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MultiFactor",
+      "printedName": "MultiFactor",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "getSession",
+          "printedName": "getSession()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.MultiFactorSession, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MultiFactorSession",
+                  "printedName": "FirebaseAuth.MultiFactorSession",
+                  "usr": "c:objc(cs)FIRMultiFactorSession"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So14FIRMultiFactorC24FirebaseAuthCombineSwiftE10getSession0E06FutureCySo0abH0Cs5Error_pGyF",
+          "mangledName": "$sSo14FIRMultiFactorC24FirebaseAuthCombineSwiftE10getSession0E06FutureCySo0abH0Cs5Error_pGyF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "enroll",
+          "printedName": "enroll(with:displayName:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<(), Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "MultiFactorAssertion",
+              "printedName": "FirebaseAuth.MultiFactorAssertion",
+              "usr": "c:objc(cs)FIRMultiFactorAssertion"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So14FIRMultiFactorC24FirebaseAuthCombineSwiftE6enroll4with11displayName0E06FutureCyyts5Error_pGSo0aB9AssertionC_SSSgtF",
+          "mangledName": "$sSo14FIRMultiFactorC24FirebaseAuthCombineSwiftE6enroll4with11displayName0E06FutureCyyts5Error_pGSo0aB9AssertionC_SSSgtF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "unenroll",
+          "printedName": "unenroll(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<(), Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "MultiFactorInfo",
+              "printedName": "FirebaseAuth.MultiFactorInfo",
+              "usr": "c:objc(cs)FIRMultiFactorInfo"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So14FIRMultiFactorC24FirebaseAuthCombineSwiftE8unenroll4with0E06FutureCyyts5Error_pGSo0aB4InfoC_tF",
+          "mangledName": "$sSo14FIRMultiFactorC24FirebaseAuthCombineSwiftE8unenroll4with0E06FutureCyyts5Error_pGSo0aB4InfoC_tF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "unenroll",
+          "printedName": "unenroll(withFactorUID:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<(), Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So14FIRMultiFactorC24FirebaseAuthCombineSwiftE8unenroll04withB3UID0E06FutureCyyts5Error_pGSS_tF",
+          "mangledName": "$sSo14FIRMultiFactorC24FirebaseAuthCombineSwiftE8unenroll04withB3UID0E06FutureCyyts5Error_pGSS_tF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)FIRMultiFactor",
+      "moduleName": "FirebaseAuth",
+      "isOpen": true,
+      "objc_name": "FIRMultiFactor",
+      "declAttributes": [
+        "ObjC",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MultiFactorResolver",
+      "printedName": "MultiFactorResolver",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "resolveSignIn",
+          "printedName": "resolveSignIn(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.AuthDataResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthDataResult",
+                  "printedName": "FirebaseAuth.AuthDataResult",
+                  "usr": "c:objc(cs)FIRAuthDataResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "MultiFactorAssertion",
+              "printedName": "FirebaseAuth.MultiFactorAssertion",
+              "usr": "c:objc(cs)FIRMultiFactorAssertion"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So22FIRMultiFactorResolverC24FirebaseAuthCombineSwiftE13resolveSignIn4with0F06FutureCySo17FIRAuthDataResultCs5Error_pGSo0aB9AssertionC_tF",
+          "mangledName": "$sSo22FIRMultiFactorResolverC24FirebaseAuthCombineSwiftE13resolveSignIn4with0F06FutureCySo17FIRAuthDataResultCs5Error_pGSo0aB9AssertionC_tF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)FIRMultiFactorResolver",
+      "moduleName": "FirebaseAuth",
+      "isOpen": true,
+      "objc_name": "FIRMultiFactorResolver",
+      "declAttributes": [
+        "ObjC",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "OAuthProvider",
+      "printedName": "OAuthProvider",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "getCredentialWith",
+          "printedName": "getCredentialWith(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.AuthCredential, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthCredential",
+                  "printedName": "FirebaseAuth.AuthCredential",
+                  "usr": "c:objc(cs)FIRAuthCredential"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseAuth.AuthUIDelegate?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthUIDelegate",
+                  "printedName": "FirebaseAuth.AuthUIDelegate",
+                  "usr": "c:objc(pl)FIRAuthUIDelegate"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So16FIROAuthProviderC24FirebaseAuthCombineSwiftE17getCredentialWithy0E06FutureCySo07FIRAuthH0Cs5Error_pGSo0K10UIDelegate_pSgF",
+          "mangledName": "$sSo16FIROAuthProviderC24FirebaseAuthCombineSwiftE17getCredentialWithy0E06FutureCySo07FIRAuthH0Cs5Error_pGSo0K10UIDelegate_pSgF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)FIROAuthProvider",
+      "moduleName": "FirebaseAuth",
+      "isOpen": true,
+      "objc_name": "FIROAuthProvider",
+      "declAttributes": [
+        "ObjC",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "PhoneAuthProvider",
+      "printedName": "PhoneAuthProvider",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "verifyPhoneNumber",
+          "printedName": "verifyPhoneNumber(_:uiDelegate:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<Swift.String, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseAuth.AuthUIDelegate?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthUIDelegate",
+                  "printedName": "FirebaseAuth.AuthUIDelegate",
+                  "usr": "c:objc(pl)FIRAuthUIDelegate"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So20FIRPhoneAuthProviderC08FirebaseB12CombineSwiftE17verifyPhoneNumber_10uiDelegate0E06FutureCySSs5Error_pGSS_So17FIRAuthUIDelegate_pSgtF",
+          "mangledName": "$sSo20FIRPhoneAuthProviderC08FirebaseB12CombineSwiftE17verifyPhoneNumber_10uiDelegate0E06FutureCySSs5Error_pGSS_So17FIRAuthUIDelegate_pSgtF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "verifyPhoneNumber",
+          "printedName": "verifyPhoneNumber(_:uiDelegate:multiFactorSession:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<Swift.String, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseAuth.AuthUIDelegate?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthUIDelegate",
+                  "printedName": "FirebaseAuth.AuthUIDelegate",
+                  "usr": "c:objc(pl)FIRAuthUIDelegate"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseAuth.MultiFactorSession?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MultiFactorSession",
+                  "printedName": "FirebaseAuth.MultiFactorSession",
+                  "usr": "c:objc(cs)FIRMultiFactorSession"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So20FIRPhoneAuthProviderC08FirebaseB12CombineSwiftE17verifyPhoneNumber_10uiDelegate18multiFactorSession0E06FutureCySSs5Error_pGSS_So17FIRAuthUIDelegate_pSgSo08FIRMultimN0CSgtF",
+          "mangledName": "$sSo20FIRPhoneAuthProviderC08FirebaseB12CombineSwiftE17verifyPhoneNumber_10uiDelegate18multiFactorSession0E06FutureCySSs5Error_pGSS_So17FIRAuthUIDelegate_pSgSo08FIRMultimN0CSgtF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "verifyPhoneNumber",
+          "printedName": "verifyPhoneNumber(with:uiDelegate:multiFactorSession:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<Swift.String, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "PhoneMultiFactorInfo",
+              "printedName": "FirebaseAuth.PhoneMultiFactorInfo",
+              "usr": "c:objc(cs)FIRPhoneMultiFactorInfo"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseAuth.AuthUIDelegate?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthUIDelegate",
+                  "printedName": "FirebaseAuth.AuthUIDelegate",
+                  "usr": "c:objc(pl)FIRAuthUIDelegate"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "FirebaseAuth.MultiFactorSession?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MultiFactorSession",
+                  "printedName": "FirebaseAuth.MultiFactorSession",
+                  "usr": "c:objc(cs)FIRMultiFactorSession"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So20FIRPhoneAuthProviderC08FirebaseB12CombineSwiftE17verifyPhoneNumber4with10uiDelegate18multiFactorSession0E06FutureCySSs5Error_pGSo0a5MultiN4InfoC_So17FIRAuthUIDelegate_pSgSo08FIRMultinO0CSgtF",
+          "mangledName": "$sSo20FIRPhoneAuthProviderC08FirebaseB12CombineSwiftE17verifyPhoneNumber4with10uiDelegate18multiFactorSession0E06FutureCySSs5Error_pGSo0a5MultiN4InfoC_So17FIRAuthUIDelegate_pSgSo08FIRMultinO0CSgtF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "DiscardableResult",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)FIRPhoneAuthProvider",
+      "moduleName": "FirebaseAuth",
+      "isOpen": true,
+      "objc_name": "FIRPhoneAuthProvider",
+      "declAttributes": [
+        "ObjC",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "User",
+      "printedName": "User",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "link",
+          "printedName": "link(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.AuthDataResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthDataResult",
+                  "printedName": "FirebaseAuth.AuthDataResult",
+                  "usr": "c:objc(cs)FIRAuthDataResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "AuthCredential",
+              "printedName": "FirebaseAuth.AuthCredential",
+              "usr": "c:objc(cs)FIRAuthCredential"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRUserC24FirebaseAuthCombineSwiftE4link4with0D06FutureCySo17FIRAuthDataResultCs5Error_pGSo0I10CredentialC_tF",
+          "mangledName": "$sSo7FIRUserC24FirebaseAuthCombineSwiftE4link4with0D06FutureCySo17FIRAuthDataResultCs5Error_pGSo0I10CredentialC_tF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "reauthenticate",
+          "printedName": "reauthenticate(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.AuthDataResult, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AuthDataResult",
+                  "printedName": "FirebaseAuth.AuthDataResult",
+                  "usr": "c:objc(cs)FIRAuthDataResult"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "AuthCredential",
+              "printedName": "FirebaseAuth.AuthCredential",
+              "usr": "c:objc(cs)FIRAuthCredential"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRUserC24FirebaseAuthCombineSwiftE14reauthenticate4with0D06FutureCySo17FIRAuthDataResultCs5Error_pGSo0I10CredentialC_tF",
+          "mangledName": "$sSo7FIRUserC24FirebaseAuthCombineSwiftE14reauthenticate4with0D06FutureCySo17FIRAuthDataResultCs5Error_pGSo0I10CredentialC_tF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "unlink",
+          "printedName": "unlink(fromProvider:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<FirebaseAuth.User, Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "User",
+                  "printedName": "FirebaseAuth.User",
+                  "usr": "c:objc(cs)FIRUser"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRUserC24FirebaseAuthCombineSwiftE6unlink12fromProvider0D06FutureCyABs5Error_pGSS_tF",
+          "mangledName": "$sSo7FIRUserC24FirebaseAuthCombineSwiftE6unlink12fromProvider0D06FutureCyABs5Error_pGSS_tF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sendEmailVerification",
+          "printedName": "sendEmailVerification()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<(), Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRUserC24FirebaseAuthCombineSwiftE21sendEmailVerification0D06FutureCyyts5Error_pGyF",
+          "mangledName": "$sSo7FIRUserC24FirebaseAuthCombineSwiftE21sendEmailVerification0D06FutureCyyts5Error_pGyF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sendEmailVerification",
+          "printedName": "sendEmailVerification(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Future",
+              "printedName": "Combine.Future<(), Swift.Error>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:7Combine6FutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ActionCodeSettings",
+              "printedName": "FirebaseAuth.ActionCodeSettings",
+              "usr": "c:objc(cs)FIRActionCodeSettings"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So7FIRUserC24FirebaseAuthCombineSwiftE21sendEmailVerification4with0D06FutureCyyts5Error_pGSo21FIRActionCodeSettingsC_tF",
+          "mangledName": "$sSo7FIRUserC24FirebaseAuthCombineSwiftE21sendEmailVerification4with0D06FutureCyyts5Error_pGSo21FIRActionCodeSettingsC_tF",
+          "moduleName": "FirebaseAuthCombineSwift",
+          "isOpen": true,
+          "intro_swift": "5.0",
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)FIRUser",
+      "moduleName": "FirebaseAuth",
+      "isOpen": true,
+      "objc_name": "FIRUser",
+      "declAttributes": [
+        "ObjC",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "NIOCore",
+      "printedName": "NIOCore",
+      "declKind": "Import",
+      "moduleName": "NIO",
+      "declAttributes": [
+        "Exported",
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "NIOEmbedded",
+      "printedName": "NIOEmbedded",
+      "declKind": "Import",
+      "moduleName": "NIO",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "NIOPosix",
+      "printedName": "NIOPosix",
+      "declKind": "Import",
+      "moduleName": "NIO",
+      "declAttributes": [
+        "Exported"
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

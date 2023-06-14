@@ -1,0 +1,31 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "3ee6ac2b7582d8dc99624d881706ebdb462c13b9c497db7d96373b8c9368a492"
+build_start_time: [1659311122, 737229824]
+build_end_time: [1659311124, 128764152]
+inputs:
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-extras-json/Sources/ExtrasJSON/ArrayKey.swift"
+  : [1656544743, 505045890]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-extras-json/Sources/ExtrasJSON/Decoding/JSONDecoder.swift"
+  : [1656544743, 505349159]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-extras-json/Sources/ExtrasJSON/Decoding/JSONKeyedDecodingContainer.swift"
+  : [1656544743, 505596637]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-extras-json/Sources/ExtrasJSON/Decoding/JSONSingleValueDecodingContainer.swift"
+  : [1656544743, 505777835]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-extras-json/Sources/ExtrasJSON/Decoding/JSONUnkeyedDecodingContainer.swift"
+  : [1656544743, 505987167]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-extras-json/Sources/ExtrasJSON/Encoding/JSONEncoder.swift"
+  : [1656544743, 506264925]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-extras-json/Sources/ExtrasJSON/Encoding/JSONKeyedEncodingContainer.swift"
+  : [1656544743, 506601333]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-extras-json/Sources/ExtrasJSON/Encoding/JSONSingleValueEncodingContainer.swift"
+  : [1656544743, 506790876]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-extras-json/Sources/ExtrasJSON/Encoding/JSONUnkeyedEncodingContainer.swift"
+  : [1656544743, 506932735]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-extras-json/Sources/ExtrasJSON/JSONError+DecodingError.swift"
+  : [1656544743, 507091045]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-extras-json/Sources/ExtrasJSON/JSONValue.swift"
+  : [1656544743, 507300853]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-extras-json/Sources/ExtrasJSON/Parsing/DocumentReader.swift"
+  : [1656544743, 507681846]
+  ? "/Users/Nat-Serrano/Library/Developer/Xcode/DerivedData/Reny-aashhrealituuahbyzwmtrmjcsne/SourcePackages/checkouts/swift-extras-json/Sources/ExtrasJSON/Parsing/JSONParser.swift"
+  : [1656544743, 507997035]

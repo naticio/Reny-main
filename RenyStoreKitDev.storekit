@@ -1,0 +1,35 @@
+{
+  "identifier" : "0C684A39",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "25.99",
+      "familyShareable" : false,
+      "internalID" : "1616588013",
+      "localizations" : [
+        {
+          "description" : "to check your ability to pay",
+          "displayName" : "financial check",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "APTRT.Reny.financialCheck.dev",
+      "referenceName" : "financial check",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "1616587814",
+    "_developerTeamID" : "3RF2T64DCN",
+    "_lastSynchronizedDate" : 708475815.25397599
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
